@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="227.553px" height="588.425px" viewBox="0 0 227.553 588.425" enable-background="new 0 0 227.553 588.425"
+	 xml:space="preserve">
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="136,174.358 69.651,186.024 0,174.358 0,118.358 
+	136,118.358 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="136,263.692 69.651,275.359 0,263.692 0,191.692 
+	136,191.692 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="136,344.858 69.651,356.525 0,344.858 0,280.858 
+	136,280.858 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="136,443.192 69.651,454.859 0,443.192 0,362.191 
+	136,362.191 "/>
+<rect x="0" y="14.313" fill="#FFFFFF" stroke="#000000" stroke-width="0.6787" stroke-miterlimit="10" width="70.667" height="45"/>
+<text transform="matrix(1 0 0 1 16.1662 42.5022)"><tspan x="0" y="0" font-family="'Circe-Regular'" font-size="7">- end client </tspan><tspan x="0" y="8.4" font-family="'Circe-Regular'" font-size="7">- client asset</tspan></text>
+<text transform="matrix(1 0 0 1 16.1666 31.5828)" font-family="'Circe-Regular'" font-size="12">Asset</text>
+<text transform="matrix(1 0 0 1 55.4944 80.7971)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">Product for</tspan><tspan x="0" y="8" font-family="'Circe-Bold'" font-size="7">tokenization:</tspan><tspan x="0" y="16" font-family="'Circe-Regular'" font-size="7">p2p loan</tspan><tspan x="26.096" y="16" font-family="'MyriadPro-Regular'" font-size="7">, </tspan><tspan x="29.028" y="16" font-family="'Circe-Regular'" font-size="7">crypto loan</tspan><tspan x="63.202" y="16" font-family="'MyriadPro-Regular'" font-size="7">,</tspan><tspan x="64.371" y="16" font-family="'MyriadPro-Regular'" font-size="7"> </tspan><tspan x="65.854" y="16" font-family="'Circe-Regular'" font-size="7">car, etc.</tspan></text>
+<text transform="matrix(1 0 0 1 146.4939 80.7972)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">For example:</tspan><tspan x="0" y="8" font-family="'Circe-Regular'" font-size="7">- p2p loan tokenization</tspan></text>
+<text transform="matrix(1 0 0 1 19.1666 136.2495)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">Originator client information:</tspan><tspan x="0" y="11" font-family="'Circe-Regular'" font-size="7">- Ethereum address</tspan><tspan x="0" y="19" font-family="'Circe-Regular'" font-size="7">- Originator email</tspan><tspan x="0" y="27" font-family="'Circe-Regular'" font-size="7">- KYC provider</tspan></text>
+<text transform="matrix(1 0 0 1 19.1666 209.583)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">General information:</tspan><tspan x="0" y="11" font-family="'Circe-Regular'" font-size="7">- ID</tspan><tspan x="0" y="19" font-family="'Circe-Regular'" font-size="7">- Asset information (for ex. VIN, </tspan><tspan x="0" y="27" font-family="'Circe-Regular'" font-size="7"> Model, Year for a car)</tspan><tspan x="0" y="35" font-family="'Circe-Regular'" font-size="7">- Camera Image</tspan><tspan x="0" y="43" font-family="'Circe-Regular'" font-size="7">- PDF document</tspan></text>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="136,519.19 69.651,530.857 0,519.19 0,460.191 
+	136,460.191 "/>
+<text transform="matrix(1 0 0 1 19.1666 298.7497)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">Availability:</tspan><tspan x="0" y="11" font-family="'Circe-Regular'" font-size="7">- Date of smart-asset creation</tspan><tspan x="0" y="19" font-family="'Circe-Regular'" font-size="7">- ID check sum control</tspan><tspan x="0" y="27" font-family="'Circe-Regular'" font-size="7">- Documents uploaded to MA</tspan><tspan x="0" y="35" font-family="'Circe-Regular'" font-size="7">- IoT sensor signal</tspan></text>
+<text transform="matrix(1 0 0 1 19.1666 381.7492)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">Global deal conditions:</tspan><tspan x="0" y="11" font-family="'Circe-Regular'" font-size="7">- Operation type</tspan><tspan x="0" y="19" font-family="'Circe-Regular'" font-size="7">- Location</tspan><tspan x="0" y="27" font-family="'Circe-Regular'" font-size="7">- Logistic conditions</tspan><tspan x="0" y="35" font-family="'Circe-Regular'" font-size="7">- Juridiical conditions</tspan><tspan x="0" y="43" font-family="'Circe-Regular'" font-size="7">- Tax</tspan><tspan x="0" y="51" font-family="'Circe-Regular'" font-size="7">- Government policy</tspan></text>
+<text transform="matrix(1 0 0 1 19.1666 479.415)"><tspan x="0" y="0" font-family="'Circe-Bold'" font-size="7">External oracle:</tspan><tspan x="0" y="11" font-family="'Circe-Regular'" font-size="7"> - Attribution of the check sign</tspan><tspan x="0" y="19" font-family="'Circe-Regular'" font-size="7">- Crawling of the AssetToken  </tspan><tspan x="0" y="27" font-family="'Circe-Regular'" font-size="7">   evaluation constant </tspan></text>
+<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="143,110.029 162,110.029 162,535.145 143,535.145 "/>
+<text transform="matrix(1 0 0 1 172.1667 339.655)"><tspan x="0" y="0" font-family="'Circe-Regular'" font-size="7">a product of </tspan><tspan x="0" y="8.4" font-family="'Circe-Regular'" font-size="7">ConsenSys</tspan></text>
+<text transform="matrix(1 0 0 1 172.1667 317.1474)" font-family="'Circe-Regular'" font-size="7">Audited by</text>
+<g>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="45.444" y1="70.75" x2="45.444" y2="107.6"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="45.444" y1="108.517" x2="46.637" y2="105.572"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="45.444" y1="108.517" x2="44.197" y2="105.573"/>
+</g>
+<g>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5251" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1.0502,1.0502" x1="68.028" y1="542.814" x2="68.028" y2="551.217"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="68.028" y1="551.217" x2="69.22" y2="548.272"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="68.028" y1="551.216" x2="66.78" y2="548.272"/>
+</g>
+<text transform="matrix(1 0 0 1 96.0555 25.8227)"><tspan x="0" y="0" font-family="'Circe-Regular'" font-size="7">Product owner</tspan><tspan x="0" y="8" font-family="'Circe-Regular'" font-size="7">scheme #2</tspan></text>
+<g>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5118" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1.0749,1.075" x1="84.938" y1="49.818" x2="76.205" y2="49.818"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="85.396" y1="49.818" x2="82.175" y2="51.01"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="85.395" y1="49.818" x2="82.175" y2="48.57"/>
+</g>
+<g>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5118" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1.0749,1.075" x1="84.938" y1="28.255" x2="76.205" y2="28.255"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="85.396" y1="28.255" x2="82.175" y2="29.448"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="85.395" y1="28.255" x2="82.175" y2="27.008"/>
+</g>
+<text transform="matrix(1 0 0 1 96.0555 48.5699)"><tspan x="0" y="0" font-family="'Circe-Regular'" font-size="7">Bankex Foundation</tspan><tspan x="0" y="8" font-family="'Circe-Regular'" font-size="7">additional scheme</tspan></text>
+<text transform="matrix(1 0 0 1 52.6943 564.6701)"><tspan x="0" y="0" font-family="'Circe-Regular'" font-size="7">Tokenizator</tspan><tspan x="0" y="9" font-family="'Circe-Regular'" font-size="7">scheme #2</tspan></text>
+<image overflow="visible" width="811" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAysAAACACAYAAAALZPbsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1
+MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5j
+ZUlEPSJ4bXAuaWlkOjI0QkI4NjY1NzhFRjExRTdBNDQ5RkQ2Mjc0RTBDN0Y5IiB4bXBNTTpEb2N1
+bWVudElEPSJ4bXAuZGlkOjI0QkI4NjY2NzhFRjExRTdBNDQ5RkQ2Mjc0RTBDN0Y5Ij4gPHhtcE1N
+OkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjRCQjg2NjM3OEVGMTFFN0E0
+NDlGRDYyNzRFMEM3RjkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjRCQjg2NjQ3OEVGMTFF
+N0E0NDlGRDYyNzRFMEM3RjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht
+cG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5qNo9RAAAWyUlEQVR42uyd7XHbSNZGr1z6T2YgbATS
+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
+C7slVwAAAABJRU5ErkJggg==" transform="matrix(0.0581 0 0 0.0581 172.1667 322.5868)">
+</image>
+</svg>

@@ -9,8 +9,22 @@
 % Colors
 %--------------------------------------
 \usepackage{color}
-\definecolor{lightyellow}{rgb}{1,0.98,0.9}
-\pagecolor{lightyellow}
+\usepackage{ocg-p}                                                          
+\usepackage{background}
+\definecolor{lightyellow}{rgb}{1,0.98,0.9} %\definecolor{lightyellow}{cmyk}{0,0.02,0.1,0.01}
+%\pagecolor{lightyellow}
+\backgroundsetup{%                                                          
+scale=1,%                                                                   
+angle=0,%                                                                   
+opacity=1,%                                                                 
+contents={%                                                                 
+% \begin{ocg}{layer name}{layer id}{initial visibility}                     
+\begin{ocg}[printocg=never]{Background}{1}{1}%                              
+  \begin{tikzpicture}[remember picture,overlay]%     
+   \path [fill=lightyellow] (current page.south west)rectangle (current page.north east);%
+  \end{tikzpicture}%      
+\end{ocg}}%                        
+}  
 %--------------------------------------
 
 % Language
@@ -43,6 +57,7 @@
 %--------------------------------------
 \usepackage{graphicx}
 \graphicspath{{images/}}
+%\usepackage{svg}
 %--------------------------------------
 
 % Tables
@@ -74,7 +89,7 @@ BankEx Proof-of-Asset protocol are being described.
 
 \vspace{24pt}
 
-\begin{multicols}{2}
+%\begin{multicols}{2}
 
 \section{Introduction}
 
@@ -101,14 +116,30 @@ Microservice architecture is an approach to structuring applications whereby the
 
 \subsection{BaaS Decentralized Model}
 
+%\includesvg{bankex-platform}
+
 \subsection{Blockchain Serviсe Architecture (BlockSA)}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{bankex-platform.eps}
+  \caption{Bankex Platform}
+  \label{fig:bankex-platform}
+\end{figure*}
 
 \begin{figure*}
   \centering
   \includegraphics[width=0.7\textwidth]{blockchain-microservice-architecture.png}
   \caption{Blockchain Service Architecture}
-  \label{fig:architecture}
+  \label{fig:architecture-png}
 \end{figure*}
+
+%\begin{figure*}
+%  \centering
+%  \includegraphics[width=0.7\textwidth]{blockchain-microservice-architecture.eps}
+%  \caption{Blockchain Service Architecture}
+%  \label{fig:architecture}
+%\end{figure*}
 
 \begin{figure*}
   \centering
@@ -186,7 +217,7 @@ Taker:
     f_{Total} = f_{Maker} - f_{Taker}
 \end{equation}
 
-\end{multicols}
+%\end{multicols}
 
 \newpage
 \appendix
