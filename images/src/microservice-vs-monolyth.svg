@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1082px"
+   height="542px"
+   version="1.1"
+   id="svg188"
+   sodipodi:docname="microservice-vs-monolyth.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata192">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2094"
+     inkscape:window-height="1289"
+     id="namedview190"
+     showgrid="false"
+     inkscape:zoom="1.142329"
+     inkscape:cx="531.05725"
+     inkscape:cy="203.26506"
+     inkscape:window-x="159"
+     inkscape:window-y="89"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g186" />
+  <defs
+     id="defs2" />
+  <g
+     transform="translate(0.5,0.5)"
+     id="g186">
+    <rect
+       x="1"
+       y="1"
+       width="360"
+       height="540"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-dasharray="6 6"
+       pointer-events="none"
+       id="rect4"
+       style="" />
+    <rect
+       x="31"
+       y="67"
+       width="300"
+       height="330"
+       fill="none"
+       stroke="#cccccc"
+       stroke-width="2"
+       stroke-dasharray="6 6"
+       pointer-events="none"
+       id="rect6"
+       style="" />
+    <rect
+       x="406"
+       y="1"
+       width="675"
+       height="540"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-dasharray="6 6"
+       pointer-events="none"
+       id="rect8"
+       style="" />
+    <g
+       transform="translate(629.5,11.5)"
+       id="g14"
+       style="">
+      <switch
+         id="switch12"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="232"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 232px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">
+                <xhtml:b>Microservices a</xhtml:b>
+              </xhtml:font>
+              <xhtml:b
+                 style="font-size: 18px">rchitecture</xhtml:b>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="116"
+           y="16"
+           font-size="12px"
+           id="text10"
+           style="font-size:18.66666667px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum Bold';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-weight:bold;font-size:18.66666667px;-inkscape-font-specification:'TeX Gyre Bonum Bold';font-family:'TeX Gyre Bonum';font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan196">Microservice Architecture</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 151 455 C 151 444.33 211 444.33 211 455 L 211 499 C 211 509.67 151 509.67 151 499 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path16"
+       style="" />
+    <path
+       d="M 151 455 C 151 463 211 463 211 455 M 151 459 C 151 467 211 467 211 459 M 151 463 C 151 471 211 471 211 463"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path18"
+       style="" />
+    <g
+       transform="translate(168.5,476.5)"
+       id="g24"
+       style="">
+      <switch
+         id="switch22"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="24"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">DB</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="12"
+           y="16"
+           font-size="12px"
+           id="text20"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">DB</text>
+      </switch>
+    </g>
+    <path
+       d="M 181 403.37 L 181 440.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path26"
+       style="" />
+    <path
+       d="M 181 398.12 L 184.5 405.12 L 181 403.37 L 177.5 405.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path28"
+       style="" />
+    <path
+       d="M 181 445.88 L 177.5 438.88 L 181 440.63 L 184.5 438.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path30"
+       style="" />
+    <g
+       transform="translate(77.5,11.5)"
+       id="g36"
+       style="">
+      <switch
+         id="switch34"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="206"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 206px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">
+                <xhtml:b>Monolythic a</xhtml:b>
+              </xhtml:font>
+              <xhtml:b
+                 style="font-size: 18px">rchitecture</xhtml:b>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="103"
+           y="16"
+           font-size="12px"
+           id="text32"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-weight:bold;font-size:18.66666667px;-inkscape-font-specification:'TeX Gyre Bonum Bold';font-family:'TeX Gyre Bonum';font-style:normal;font-stretch:normal;font-variant:normal"
+             id="tspan194">Monolythic Architecture</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 721 455 C 721 444.33 781 444.33 781 455 L 781 499 C 781 509.67 721 509.67 721 499 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path38"
+       style="" />
+    <path
+       d="M 721 455 C 721 463 781 463 781 455 M 721 459 C 721 467 781 467 781 459 M 721 463 C 721 471 781 471 781 463"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path40"
+       style="" />
+    <g
+       transform="translate(738.5,476.5)"
+       id="g46"
+       style="">
+      <switch
+         id="switch44"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="24"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">DB</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="12"
+           y="16"
+           font-size="12px"
+           id="text42"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">DB</text>
+      </switch>
+    </g>
+    <path
+       d="M 901 455 C 901 444.33 961 444.33 961 455 L 961 499 C 961 509.67 901 509.67 901 499 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path48"
+       style="" />
+    <path
+       d="M 901 455 C 901 463 961 463 961 455 M 901 459 C 901 467 961 467 961 459 M 901 463 C 901 471 961 471 961 463"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path50"
+       style="" />
+    <g
+       transform="translate(918.5,476.5)"
+       id="g56"
+       style="">
+      <switch
+         id="switch54"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="24"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">DB</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="12"
+           y="16"
+           font-size="12px"
+           id="text52"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">DB</text>
+      </switch>
+    </g>
+    <path
+       d="M 536 455 C 536 444.33 596 444.33 596 455 L 596 499 C 596 509.67 536 509.67 536 499 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path58"
+       style="" />
+    <path
+       d="M 536 455 C 536 463 596 463 596 455 M 536 459 C 536 467 596 467 596 459 M 536 463 C 536 471 596 471 596 463"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path60"
+       style="" />
+    <g
+       transform="translate(553.5,476.5)"
+       id="g66"
+       style="">
+      <switch
+         id="switch64"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="24"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">DB</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="12"
+           y="16"
+           font-size="12px"
+           id="text62"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">DB</text>
+      </switch>
+    </g>
+    <rect
+       x="81"
+       y="107"
+       width="200"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect68"
+       style="" />
+    <g
+       transform="translate(171.5,127.5)"
+       id="g74"
+       style="">
+      <switch
+         id="switch72"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="18"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 18px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">UI</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="9"
+           y="16"
+           font-size="12px"
+           id="text70"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan217">UI</tspan>
+        </text>
+      </switch>
+    </g>
+    <rect
+       x="486"
+       y="77"
+       width="160"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect76"
+       style="" />
+    <g
+       transform="translate(556.5,97.5)"
+       id="g82"
+       style="">
+      <switch
+         id="switch80"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="18"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 18px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">UI</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="9"
+           y="16"
+           font-size="12px"
+           id="text78"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan229">UI</tspan>
+        </text>
+      </switch>
+    </g>
+    <rect
+       x="81"
+       y="197"
+       width="200"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect84"
+       style="" />
+    <g
+       transform="translate(121.5,217.5)"
+       id="g90"
+       style="">
+      <switch
+         id="switch88"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="118"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 120px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Business Logic</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="59"
+           y="16"
+           font-size="12px"
+           id="text86"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan219">Business Logic</tspan>
+        </text>
+      </switch>
+    </g>
+    <rect
+       x="81"
+       y="287"
+       width="200"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect92"
+       style="" />
+    <g
+       transform="translate(107.5,307.5)"
+       id="g98"
+       style="">
+      <switch
+         id="switch96"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="146"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 146px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Data Access Level</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="73"
+           y="16"
+           font-size="12px"
+           id="text94"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:16px;"
+             id="tspan107">Data Access Level</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 566 383.37 L 566 440.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path100"
+       style="" />
+    <path
+       d="M 566 378.12 L 569.5 385.12 L 566 383.37 L 562.5 385.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path102"
+       style="" />
+    <path
+       d="M 566 445.88 L 562.5 438.88 L 566 440.63 L 569.5 438.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path104"
+       style="" />
+    <rect
+       x="486"
+       y="317"
+       width="160"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect106"
+       style="" />
+    <g
+       transform="translate(507.5,337.5)"
+       id="g112"
+       style="">
+      <switch
+         id="switch110"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="116"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 118px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Microservice A</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="58"
+           y="16"
+           font-size="12px"
+           id="text108"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan223">Microservice A</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 566 143.37 L 566 310.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path114"
+       style="" />
+    <path
+       d="M 566 138.12 L 569.5 145.12 L 566 143.37 L 562.5 145.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path116"
+       style="" />
+    <path
+       d="M 566 315.88 L 562.5 308.88 L 566 310.63 L 569.5 308.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path118"
+       style="" />
+    <path
+       d="M 751 383.37 L 751 440.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path120"
+       style="" />
+    <path
+       d="M 751 378.12 L 754.5 385.12 L 751 383.37 L 747.5 385.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path122"
+       style="" />
+    <path
+       d="M 751 445.88 L 747.5 438.88 L 751 440.63 L 754.5 438.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path124"
+       style="" />
+    <rect
+       x="671"
+       y="317"
+       width="160"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect126"
+       style="" />
+    <g
+       transform="translate(692.5,337.5)"
+       id="g132"
+       style="">
+      <switch
+         id="switch130"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="116"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 118px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Microservice B</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="58"
+           y="16"
+           font-size="12px"
+           id="text128"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan225">Microservice B</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 609.21 142.5 L 707.79 311.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path134"
+       style="" />
+    <path
+       d="M 606.56 137.97 L 613.11 142.25 L 609.21 142.5 L 607.07 145.78 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path136"
+       style="" />
+    <path
+       d="M 710.44 316.03 L 703.89 311.75 L 707.79 311.5 L 709.93 308.22 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path138"
+       style="" />
+    <path
+       d="M 931 383.37 L 931 440.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path140"
+       style="" />
+    <path
+       d="M 931 378.12 L 934.5 385.12 L 931 383.37 L 927.5 385.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path142"
+       style="" />
+    <path
+       d="M 931 445.88 L 927.5 438.88 L 931 440.63 L 934.5 438.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path144"
+       style="" />
+    <rect
+       x="851"
+       y="317"
+       width="160"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect146"
+       style="" />
+    <g
+       transform="translate(871.5,337.5)"
+       id="g152"
+       style="">
+      <switch
+         id="switch150"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="118"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 118px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Microservice C</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="59"
+           y="16"
+           font-size="12px"
+           id="text148"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan227">Microservice C</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 931 143.37 L 931 310.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path154"
+       style="" />
+    <path
+       d="M 931 138.12 L 934.5 145.12 L 931 143.37 L 927.5 145.12 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path156"
+       style="" />
+    <path
+       d="M 931 315.88 L 927.5 308.88 L 931 310.63 L 934.5 308.88 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path158"
+       style="" />
+    <path
+       d="M 845.87 140.77 L 611.13 313.23"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path160"
+       style="" />
+    <path
+       d="M 850.1 137.66 L 846.53 144.63 L 845.87 140.77 L 842.39 138.99 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path162"
+       style="" />
+    <path
+       d="M 606.9 316.34 L 610.47 309.37 L 611.13 313.23 L 614.61 315.01 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path164"
+       style="" />
+    <path
+       d="M 887.47 142.3 L 774.53 311.7"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path166"
+       style="" />
+    <path
+       d="M 890.38 137.93 L 889.41 145.7 L 887.47 142.3 L 883.58 141.81 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path168"
+       style="" />
+    <path
+       d="M 771.62 316.07 L 772.59 308.3 L 774.53 311.7 L 778.42 312.19 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path170"
+       style="" />
+    <rect
+       x="811"
+       y="77"
+       width="160"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect172"
+       style="" />
+    <g
+       transform="translate(831.5,97.5)"
+       id="g178"
+       style="">
+      <switch
+         id="switch176"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="118"
+           height="19"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: FreeSans; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 118px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 18px">Microservice D</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="59"
+           y="16"
+           font-size="12px"
+           id="text174"
+           style="font-size:16px;font-family:'TeX Gyre Bonum';text-anchor:middle;fill:#000000;-inkscape-font-specification:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+          <tspan
+             style="font-size:16px;-inkscape-font-specification:'TeX Gyre Bonum';font-family:'TeX Gyre Bonum';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+             id="tspan231">Microservice D</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       d="M 652.37 107 L 804.63 107"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path180"
+       style="" />
+    <path
+       d="M 647.12 107 L 654.12 103.5 L 652.37 107 L 654.12 110.5 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path182"
+       style="" />
+    <path
+       d="M 809.88 107 L 802.88 110.5 L 804.63 107 L 802.88 103.5 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path184"
+       style="" />
+  </g>
+</svg>
