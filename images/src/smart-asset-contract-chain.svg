@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1083"
+   height="650"
+   version="1.1"
+   id="svg4245"
+   sodipodi:docname="smart-asset-contract-chain.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4249">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1852"
+     inkscape:window-height="1280"
+     id="namedview4247"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-text-baseline="false"
+     inkscape:zoom="0.79453092"
+     inkscape:cx="439.75633"
+     inkscape:cy="194.59216"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4243"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4021" />
+  <g
+     transform="translate(-7.5,0.5)"
+     id="g4243">
+    <rect
+       x="9"
+       y="1"
+       width="1080"
+       height="107"
+       pointer-events="none"
+       id="rect4023"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 6;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <rect
+       x="9"
+       y="151"
+       width="1080"
+       height="370"
+       pointer-events="none"
+       id="rect4025"
+       style="fill:#f5f5f5;stroke:#000000;stroke-width:2;stroke-dasharray:6, 6;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1" />
+    <path
+       d="m 109,171 h 128 l 32,60 -32,60 H 109 l 32,-60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4027"
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="M 9,131 H 1075.16"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4035"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#666666;stroke-width:5;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 1083.41,131 -11,5.5 2.75,-5.5 -2.75,-5.5 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4037"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#666666;stroke-width:5;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 69,361 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4039"
+       inkscape:connector-curvature="0"
+       style="fill:#e6e6e6;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 301,231 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4047"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 301,231 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4049"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 29,431 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4051"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 189,91 v 71.76"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4059"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:none" />
+    <path
+       d="m 189,168.76 -4,-8 4,2 4,-2 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4061"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+    <rect
+       x="104"
+       y="21"
+       width="170"
+       height="70"
+       pointer-events="none"
+       id="rect4063"
+       style="fill:#f5f5f5;stroke:#666666;stroke-width:1;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:8.23529434;stroke-dasharray:none" />
+    <path
+       d="m 384,171 h 128 l 32,60 -32,60 H 384 l 32,-60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4077"
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 344,361 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4085"
+       inkscape:connector-curvature="0"
+       style="fill:#e6e6e6;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 416,231 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4093"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 416,231 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4095"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 304,431 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4097"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 641,170 h 128 l 32,60 -32,60 H 641 l 32,-60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4105"
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 601,360 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4113"
+       inkscape:connector-curvature="0"
+       style="fill:#e6e6e6;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 673,230 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4121"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 673,230 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4123"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 264,501 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4125"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 1089,336 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4133"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 1089,336 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4135"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 899,171 h 128 l 32,60 -32,60 H 899 l 32,-60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4137"
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 859,361 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4145"
+       inkscape:connector-curvature="0"
+       style="fill:#e6e6e6;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 931,231 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4153"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 931,231 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4155"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 819,431 32,-60 h 128 l -32,60 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4157"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#666666;stroke-width:1;stroke-miterlimit:8.23529434;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 598,246 v 0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4171"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 598,246 v 0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4173"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+    <path
+       d="m 721,90 v 71.76"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4181"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:none" />
+    <path
+       d="m 721,167.76 -4,-8 4,2 4,-2 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4183"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+    <rect
+       x="636"
+       y="20"
+       width="170"
+       height="70"
+       pointer-events="none"
+       id="rect4185"
+       style="fill:#f5f5f5;stroke:#666666;stroke-width:1;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:8.23529434;stroke-dasharray:none" />
+    <rect
+       x="9"
+       y="541"
+       width="1080"
+       height="107"
+       pointer-events="none"
+       id="rect4193"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 6;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <path
+       d="m 264,560 q 0,-29 20,-29 20,0 20,-21.76"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4195"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:none" />
+    <path
+       d="m 304,503.24 4,8 -4,-2 -4,2 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4197"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+    <rect
+       x="179"
+       y="560"
+       width="170"
+       height="70"
+       pointer-events="none"
+       id="rect4199"
+       style="fill:#f5f5f5;stroke:#666666;stroke-width:1;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:8.23529434;stroke-dasharray:none" />
+    <path
+       d="M 522,561 451.46,408.48"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4213"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:none" />
+    <path
+       d="m 448.94,403.03 6.99,5.58 -4.47,-0.13 -2.79,3.49 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4215"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+    <rect
+       x="437"
+       y="561"
+       width="170"
+       height="70"
+       pointer-events="none"
+       id="rect4217"
+       style="fill:#f5f5f5;stroke:#666666;stroke-width:1;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:8.23529434;stroke-dasharray:none" />
+    <path
+       d="M 764,560 Q 764,460 722.5,460 681,460 681,368.24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4225"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:none" />
+    <path
+       d="m 681,362.24 4,8 -4,-2 -4,2 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4227"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+    <rect
+       x="679"
+       y="560"
+       width="170"
+       height="70"
+       pointer-events="none"
+       id="rect4229"
+       style="fill:#f5f5f5;stroke:#666666;stroke-width:1;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:8.23529434;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="148.65906"
+       y="317.95334"
+       id="text4430"><tspan
+         sodipodi:role="line"
+         id="tspan4428"
+         x="148.65906"
+         y="317.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="148.65906"
+         y="334.62"
+         id="tspan4432">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="148.65906"
+         y="351.28668"
+         id="tspan4434">1.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="108.65907"
+       y="387.95334"
+       id="text4430-8"><tspan
+         sodipodi:role="line"
+         id="tspan4428-3"
+         x="108.65907"
+         y="387.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="108.65907"
+         y="404.62"
+         id="tspan4432-4">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="108.65907"
+         y="421.28668"
+         id="tspan4434-2">1.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="423.65906"
+       y="317.95334"
+       id="text4430-2"><tspan
+         sodipodi:role="line"
+         id="tspan4428-4"
+         x="423.65906"
+         y="317.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="423.65906"
+         y="334.62"
+         id="tspan4432-5">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="423.65906"
+         y="351.28668"
+         id="tspan4434-1">2.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="383.65906"
+       y="387.95334"
+       id="text4430-7"><tspan
+         sodipodi:role="line"
+         id="tspan4428-5"
+         x="383.65906"
+         y="387.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="383.65906"
+         y="404.62"
+         id="tspan4432-7">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="383.65906"
+         y="421.28668"
+         id="tspan4434-16">2.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="343.65906"
+       y="457.95334"
+       id="text4430-9"><tspan
+         sodipodi:role="line"
+         id="tspan4428-8"
+         x="343.65906"
+         y="457.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="343.65906"
+         y="474.62"
+         id="tspan4432-1">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="343.65906"
+         y="491.28668"
+         id="tspan4434-3">2.3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="680.65906"
+       y="316.95334"
+       id="text4430-3"><tspan
+         sodipodi:role="line"
+         id="tspan4428-37"
+         x="680.65906"
+         y="316.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="680.65906"
+         y="333.62"
+         id="tspan4432-9">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="680.65906"
+         y="350.28668"
+         id="tspan4434-8">(N-1).1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="938.65906"
+       y="317.95334"
+       id="text4430-6"><tspan
+         sodipodi:role="line"
+         id="tspan4428-7"
+         x="938.65906"
+         y="317.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="938.65906"
+         y="334.62"
+         id="tspan4432-0">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="938.65906"
+         y="351.28668"
+         id="tspan4434-4">N.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="898.65906"
+       y="387.95334"
+       id="text4430-84"><tspan
+         sodipodi:role="line"
+         id="tspan4428-81"
+         x="898.65906"
+         y="387.95334">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="898.65906"
+         y="404.62"
+         id="tspan4432-6">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="898.65906"
+         y="421.28668"
+         id="tspan4434-85">N.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="978.58081"
+       y="215.312"
+       id="text4430-21"><tspan
+         sodipodi:role="line"
+         id="tspan4428-9"
+         x="978.58081"
+         y="215.312"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="978.58081"
+         y="235.312"
+         id="tspan4432-96"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="978.58081"
+         y="255.312"
+         id="tspan4434-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="720.58081"
+       y="214.312"
+       id="text4430-64"><tspan
+         sodipodi:role="line"
+         id="tspan4428-99"
+         x="720.58081"
+         y="214.312">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="720.58081"
+         y="234.312"
+         id="tspan4432-08">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="720.58081"
+         y="254.312"
+         id="tspan4434-9">N-1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="463.58084"
+       y="215.312"
+       id="text4430-31"><tspan
+         sodipodi:role="line"
+         id="tspan4428-48"
+         x="463.58084"
+         y="215.312">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="463.58084"
+         y="235.312"
+         id="tspan4432-967">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="463.58084"
+         y="255.312"
+         id="tspan4434-7">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="188.3242"
+       y="215.34399"
+       id="text4430-37"><tspan
+         sodipodi:role="line"
+         id="tspan4428-1"
+         x="188.3242"
+         y="215.34399"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Smart</tspan><tspan
+         sodipodi:role="line"
+         x="188.3242"
+         y="235.584"
+         id="tspan4432-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Contract</tspan><tspan
+         sodipodi:role="line"
+         x="188.3242"
+         y="255.82399"
+         id="tspan4434-21"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="264.32925"
+       y="600.79999"
+       id="text4430-5"><tspan
+         sodipodi:role="line"
+         x="264.32925"
+         y="600.79999"
+         id="tspan4434-40">Verification</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="521.65906"
+       y="601.37598"
+       id="text4430-1"><tspan
+         sodipodi:role="line"
+         x="521.65906"
+         y="601.37598"
+         id="tspan4434-30">IoT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="763.65906"
+       y="600.37598"
+       id="text4430-32"><tspan
+         sodipodi:role="line"
+         x="763.65906"
+         y="600.37598"
+         id="tspan4434-5">IoT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="720.59088"
+       y="50.664001"
+       id="text4430-4"><tspan
+         sodipodi:role="line"
+         x="720.59088"
+         y="50.664001"
+         id="tspan4434-72"
+         style="font-size:16px">Additional</tspan><tspan
+         sodipodi:role="line"
+         x="720.59088"
+         y="70.664001"
+         style="font-size:16px"
+         id="tspan4785">Information</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="188.59088"
+       y="51.664001"
+       id="text4430-41"><tspan
+         sodipodi:role="line"
+         x="188.59088"
+         y="51.664001"
+         id="tspan4434-859">Initial</tspan><tspan
+         sodipodi:role="line"
+         x="188.59088"
+         y="71.664001"
+         id="tspan4792">Information</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+       x="1068.7877"
+       y="85.689827"
+       id="text4430-21-2"><tspan
+         sodipodi:role="line"
+         x="1068.7877"
+         y="85.689827"
+         id="tspan4434-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:end;text-anchor:end">Asset Owner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+       x="1068.9232"
+       y="496.36386"
+       id="text4430-21-2-4"><tspan
+         sodipodi:role="line"
+         x="1068.9232"
+         y="496.36386"
+         id="tspan4434-0-6-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:end;text-anchor:end">Smart Contract</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+       x="1069.5524"
+       y="608.37964"
+       id="text4430-21-2-9"><tspan
+         sodipodi:role="line"
+         x="1069.5524"
+         y="608.37964"
+         id="tspan4434-0-6-72"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:end;text-anchor:end">External</tspan><tspan
+         sodipodi:role="line"
+         x="1069.5524"
+         y="628.37964"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:end;text-anchor:end"
+         id="tspan4711">Data Sources</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.31680298px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83230019"
+       x="534.9469"
+       y="719.6106"
+       id="text4430-1-2"
+       transform="scale(1.2014896,0.83230017)"><tspan
+         sodipodi:role="line"
+         x="534.9469"
+         y="719.6106"
+         id="tspan4434-30-1"
+         style="font-weight:bold;stroke-width:0.83230019">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.31680298px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83230019"
+       x="501.13293"
+       y="280.18124"
+       id="text4430-1-2-1"
+       transform="scale(1.2014896,0.83230017)"><tspan
+         sodipodi:role="line"
+         x="501.13293"
+         y="280.18124"
+         id="tspan4434-30-1-5"
+         style="font-weight:bold;stroke-width:0.83230019">...</tspan></text>
+  </g>
+</svg>

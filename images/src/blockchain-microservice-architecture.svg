@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,12 +45,12 @@
      fit-margin-bottom="0"
      fit-margin-left="0"
      inkscape:zoom="1.1267092"
-     inkscape:cx="439.01843"
+     inkscape:cx="503.74624"
      inkscape:cy="307.82681"
      inkscape:window-x="75"
      inkscape:window-y="34"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g10" />
+     inkscape:current-layer="g338" />
   <defs
      id="defs2" />
   <g
@@ -94,7 +94,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'"
-             id="tspan4017">Ethereum network</tspan>
+             id="tspan4017">Ethereum Network</tspan>
         </text>
       </switch>
     </g>
@@ -131,7 +131,7 @@
            y="16"
            font-size="12px"
            id="text14"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <rect
@@ -206,7 +206,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum'"
-             id="tspan175">Client node</tspan>
+             id="tspan175">Client Node</tspan>
         </text>
       </switch>
     </g>
@@ -288,7 +288,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum'"
-             id="tspan185">Client node</tspan>
+             id="tspan185">Client Node</tspan>
         </text>
       </switch>
     </g>
@@ -325,7 +325,7 @@
            y="16"
            font-size="12px"
            id="text58"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <rect
@@ -428,7 +428,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum'"
-             id="tspan177">Client node</tspan>
+             id="tspan177">Client Node</tspan>
         </text>
       </switch>
     </g>
@@ -550,7 +550,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum'"
-             id="tspan183">Client node</tspan>
+             id="tspan183">Client Node</tspan>
         </text>
       </switch>
     </g>
@@ -623,7 +623,7 @@
            y="16"
            font-size="12px"
            id="text124"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <rect
@@ -716,7 +716,7 @@
            y="16"
            font-size="12px"
            id="text146"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <path
@@ -776,7 +776,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
           <tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum'"
-             id="tspan179">Node</tspan>
+             id="tspan179">Client Node</tspan>
         </text>
       </switch>
     </g>
@@ -869,7 +869,7 @@
            y="16"
            font-size="12px"
            id="text180"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <rect
@@ -962,7 +962,7 @@
            y="16"
            font-size="12px"
            id="text202"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
       </switch>
     </g>
     <rect
@@ -1328,7 +1328,7 @@
            y="26"
            font-size="12px"
            id="text302"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Node management</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Node Management</text>
       </switch>
     </g>
     <path
