@@ -45,7 +45,7 @@
      fit-margin-bottom="0"
      fit-margin-left="0"
      inkscape:zoom="1.1267092"
-     inkscape:cx="503.74624"
+     inkscape:cx="357.74583"
      inkscape:cy="307.82681"
      inkscape:window-x="75"
      inkscape:window-y="34"
@@ -869,7 +869,7 @@
            y="16"
            font-size="12px"
            id="text180"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Oracle</text>
       </switch>
     </g>
     <rect
@@ -905,7 +905,7 @@
            y="16"
            font-size="12px"
            id="text188"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Miner</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Web3j</text>
       </switch>
     </g>
     <path
@@ -962,7 +962,7 @@
            y="16"
            font-size="12px"
            id="text202"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Client Node</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Oracle</text>
       </switch>
     </g>
     <rect
@@ -998,7 +998,7 @@
            y="16"
            font-size="12px"
            id="text210"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Miner</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">Web3j</text>
       </switch>
     </g>
     <path

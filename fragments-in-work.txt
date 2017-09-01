@@ -1,3 +1,30 @@
+\section{Fundamental Advantage of Tokenization for an Asset}
+
+The analytical block of BankEx, gathering and analyzing financial technologies from all over the world for several years, is seeing an interesting trend that has been forming around financial tools during the last few years. 
+
+If we take apart the basic needs of a person or a company in terms of movement of funds, it would be easy to discover that every person or company does not have that many basic financial needs, namely:
+    
+\begin{itemize}
+\item spending money;
+\item moving money;
+\item storing money;
+\item earning money.
+\end{itemize}
+
+By correlating these basic financial needs with the current range of financial technologies it turns out that today there is a strong leaning towards saturation of certain needs with financial technologies:
+    
+\begin{description}
+\item[spending money]~--- the need that is most saturated and easiest to digitize. There are currently thousands of companies that help a person or a company to easily and quickly spend their money;
+\item[moving money]~--- similar in terms of saturation, but this basic need has several unresolved issues, including ones currently being addressed by our colleagues at Ripple;
+\item[storing money]~--- the need for people and companies to keep their money in their pockets is virtually non-existent today, having fully been digitized and moved to plastic cards and a whole range of innovative solutions. 
+\end{description}
+
+The BankEx Proof-of-Asset Protocol allows people and organizations to fulfill an important, vital need~--- the need to earn money. By becoming part of the Asset Community you will have the option of earning, and thus realizing yourself in fields of your choosing. 
+
+Cryptocurrencies solve the global issue of digitization of the human need to earn money, and altogether the emergence of cryptocurrencies is a technological response, solving this fundamental issue. 
+
+SmartDeal based on open source Smart Asset by the Proof-of-Asset Protocol is the next step. You will be able to build your future with your own hands.
+
 %\begin{figure*}
 %  \centering
 %  \includegraphics[width=\textwidth]{bankex-platform.eps}
@@ -87,3 +114,61 @@ Taker:
 \begin{equation}
     f_{Total} = f_{Maker} - f_{Taker}
 \end{equation}
+
+
+
+
+
+
+\begin{table*}
+    \caption{Operation costs}
+    \label{tab:asd}\centering
+    \begin{tabularx}{\textwidth}{|X|X|X|}
+        \hline
+            \thead{Purpose} & \thead{BKX Amount used} & \thead{Details} \\
+        \hline
+            \makecell{Creation of a Smart Asset} & \makecell{100 =<} & \makecell{Amount depends on the complexity of the Smart Asset and Ethereum Network load} \\
+            \makecell{1} & \makecell{2} & \makecell{3}
+        \hline
+    \end{tabularx}
+\end{table*}
+
+
+
+
+\begin{table*}
+    \caption{Nomination}
+    \label{tab:asd}\centering
+    \begin{tabularx}{0.5\textwidth}{|X|X|X|}
+        \hline
+            \thead{Purpose} & \thead{BKX Amount used} & \thead{Details} \\
+        \hline
+            \makecell{Creation of a Smart Asset} & \makecell{100 =<} & \makecell{Amount depends on the complexity of the Smart Asset and Ethereum Network load} \\
+            \makecell{} & \makecell{} & \makecell{} \\
+            \makecell{} & \makecell{} & \makecell{} \\
+            \makecell{} & \makecell{} & \makecell{} \\
+            \makecell{} & \makecell{} & \makecell{} \\
+            \makecell{} & \makecell{} & \makecell{}
+        \hline
+    \end{tabularx}
+\end{table*}
+
+
+
+
+
+Transfer of the Smart Asset in BankEx ecosystem
+2 =<
+Amount depends on the complexity of the Smart Asset and Ethereum Network load
+Destruction of the Smart Asset 
+5 =<
+Amount depends on the Ethereum Network load
+Adding a step in the originator verification chain 
+150 =<
+Depends on the service which will be requested (scoring, KYC…)
+Requesting the “Verified Status” for the Smart Asset
+400 =<
+Depends on the type and complexity of the asset
+Requesting Escrow Services
+50 =<
+Depends on the type 

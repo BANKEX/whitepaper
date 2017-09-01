@@ -63,8 +63,8 @@
 %--------------------------------------
 
 \title{BankEx Proof-of-Asset Protocol}
-\author{Yellow Paper, version 0.1.2 alpha}
-\date{August 30, 2017}
+\author{Yellow Paper, version 0.1.3 alpha}
+\date{September 01, 2017}
 
 \begin{document}
 
@@ -73,12 +73,14 @@
 \maketitle
 
 \begin{abstract}
-BankEx Proof-of-Asset protocol of assets tokenization and liquidity increase are being described. Practical implementation of the Proof-of-Asset Protocol based on Ethereum platform smart-contracts are being described enlightening technical and economical aspects of protocol.
+BankEx Proof-of-Asset protocol of assets tokenization and liquidity increase is being described. Practical implementation of the Proof-of-Asset Protocol based on Ethereum platform smart-contracts is being described enlightening technical and economical aspects of the protocol.
 \end{abstract}
 
 \vspace{24pt}
 
 \begin{multicols}{2}
+
+\tableofcontents
 
 \section{Introduction}
 
@@ -124,7 +126,7 @@ A monolithic architecture is much easier in implementation, control and deployme
 
 Such architecture allows technically complicated applications to constantly evolve without the need to wait for the release of a new version of the product to make changes. There is no need to release an updated version of the product, if the changes apply only to a small part of the product. That’s why it’s possible to customize for various business tasks of every enterprise, department or person.
 
-Notably, microservices can be fully managed by different teams in compliance with different standards and are also more available: even if one of them crashes, it does not lead to the crash of the entire application. A unified architecture facilitates work in situations where multiple modules need to interact with one another, or where classes need to be transferred from one module to another. At the same time microservices can guarantee that there will be no shared states between the modules. Finally, microservices allow you to use multiple technologies and languages, depending on business needs (Figure \ref{fig:microservice-vs-monolyth}).
+Notably, microservices can be fully managed by different teams in compliance with different standards and are also more available: even if one of them crashes, it does not lead to the crash of the entire application. A unified architecture facilitates work in situations where multiple modules need to interact with one another, or where classes need to be transferred from one module to another. At the same time microservices can guarantee that there will be no shared states between the modules. Finally, microservices allow you to use multiple technologies and languages, depending on business needs (Figure~\ref{fig:microservice-vs-monolyth}).
 
 \begin{figure*}
   \centering
@@ -139,17 +141,20 @@ Bank-as-a-Service (\textit{BaaS}) is a business model that makes it possible to 
 
 On one side of these platforms are originators in various jurisdictions with various technologies, and on the other are fintech-companies wishing to launch a new product or expand to a new market. Thanks to the platform, they are able to do this quickly and efficiently, without the need to work out integration with the legislation of every country and every new bank from scratch. Since the platform already contains technological and legal integration, it can provide access to a new player more cheaply and more quickly. 
 
-\textbf{The originator in the BaaS model} is a storefront, essentially establishing access to the end client, be it a bank, a fintech company, an internet platform, a stock exchange or an insurer. It is critical that when building the BaaS business model, the originator of the platform maintains his client and access to the client under his control, but at the same time he provides the client with the most up-to-date and competitive products on the market by the best tech (fintech, IT) companies on the market. It’s an excellent solution to preserve and monetize clients. 
+\textbf{The originator in the BaaS model} is a storefront, essentially establishing access to the end client, be it a bank, a fintech company, an internet platform, a stock exchange or an insurer. It is critical that when building the BaaS business model, the originator of the platform maintains his client and access to the client under his control, but at the same time he provides the client with the most up-to-date and competitive products on the market by the best tech (fintech, IT) companies on the market. It’s an excellent solution to preserve and monetize clients.
 
 How does an end client see it? Like a bank~--- he does not have to see the third party provider.
 
 There exist several levels of integration of participants of the BaaS model: from primitive analogue integration, where an employee would have to re-enter data into a separate service, to fully automated integration. The originator makes the choice of whichever model of work with an end client is most beneficial to him, either where the end client is shown that the company he is interacting with provides services by outside service providers, or where the end client sees the entire product line under the originator’s brand.
+
+Some researchers call this conception \enquote{The Lego Bank} which owns no pieces but assembles the pieces into different form factors.  The constituent pieces are all the same.  It is how you put the pieces together that makes the difference.  Like Lego, you can build the pieces into a Castle, a House or a Winnebago.  It’s all about how you click pieces together \cite{skinner2017baas}.
 
 As a result, the Bank-as-a-Service platform is a unified window, where corporate or retail clients can choose and receive services that are being offered by various banks and tech companies in various countries. This platform takes over technical and legal integration of various players on the financial market.
 
 \subsection{Decentralized BaaS Model}
 
 According to McKinsey \& Co., there are three main trends in banking evolution:
+
 \begin{itemize}
 \item automation;
 \item increased regulation;
@@ -183,7 +188,7 @@ We believe that the \textit{B2B2C} combination of business-models and technologi
 \subsection{Blockchain Serviсe Architecture (\textit{Blockchain~SA})}
 
 On an Ethereum blockchain micro-service, architecture is used in the implementation of external oracles. At the same time, the Ethereum network is itself an example of network that uses the concept of micro-services, since it contains all the characteristic features of micro-services
-(Figure \ref{fig:blockchain-microservice-architecture}):
+(Figure~\ref{fig:blockchain-microservice-architecture}):
 
 \begin{itemize}
 \item excess and reservation, as each node of the network is autonomous;
@@ -210,7 +215,7 @@ This allows to tokenize an asset with maximum precision and transparency for all
 
 \subsection{Complexity regulation of the Blockchain~SA}
 
-We often hear from technical experts: Your protocol is too complicated. Other technical gurus say~--- your protocol is too simple. Yes, they are correct. The complexity of the BankEx protocol, which is based on the Blockchain Service Architecture, is regulated by the increase/decrease in the number of smart contracts in the tokenization logic (Figure \ref{fig:smart-asset-contract-chain}).
+We often hear from technical experts: Your protocol is too complicated. Other technical gurus say~--- your protocol is too simple. Yes, they are correct. The complexity of the BankEx protocol, which is based on the Blockchain Service Architecture, is regulated by the increase/decrease in the number of smart contracts in the tokenization logic (Figure~\ref{fig:smart-asset-contract-chain}).
 
 \begin{figure*}
   \centering
@@ -298,6 +303,7 @@ Recent papers have focused on combining financial market maker model with the fi
 \subsubsection*{Examples of market makers today}
  
 They also play a major role in stock exchanges, and historically exchanges have often appointed trading firms to act as official market makers for specific equities:
+
 \begin{itemize}
 \item market makers typically either own or are members of an exchange such as the New York Stock Exchange or the Chicago Board of Trade;
 \item NYSE designates a single market maker for each stock, known as the specialist for that stock. In contrast, NASDAQ allows several market makers for each stock;
@@ -312,7 +318,7 @@ Another significant note is that the BankEx Proof-of-Asset Protocol is based on 
 
 \subsection{Types of Assets and Asset Requirements}
 
-Everything in our world is relatively liquid. The Figure \ref{fig:blackstone} is taken from a report \cite{blackstone2015} by Blockstone~--- one of the biggest equity funds in USA, demonstrating that everything is liquid and has a duration of sale. They mention that investing into assets that could seem insufficiently liquid at first may in fact result in greater profitability than other assets.
+Everything in our world is relatively liquid. The Figure~\ref{fig:blackstone} is taken from a report \cite{blackstone2015} by Blockstone~--- one of the biggest equity funds in USA, demonstrating that everything is liquid and has a duration of sale. They mention that investing into assets that could seem insufficiently liquid at first may in fact result in greater profitability than other assets.
 
 \begin{figure*}
   \centering
@@ -327,7 +333,7 @@ In this situation, blockchain tokens which can be bought and sold on a decentral
 
 The potential tokenization market includes everything that sells over days, weeks or years. Meaning potential for the tokenization market is enormous. The issue currently being addressed by the best blockchains in the world~--- Ethereum and Bitcoin, the issue of having to wait several minutes to receive several transaction confirmations, is no issue to us. 
 
-Asset Tokenization does not work on the market of assets liquid enough to be sold in seconds. The Market Opportunity of BankEx Asset Tokenization stands to the right of Tokens on Figure \ref{fig:liquidity-over-time}.
+Asset Tokenization does not work on the market of assets liquid enough to be sold in seconds. The Market Opportunity of BankEx Asset Tokenization stands to the right of Tokens on Figure~\ref{fig:liquidity-over-time}.
 
 \begin{figure*}
   \centering
@@ -350,7 +356,7 @@ We all know the crowdsale mechanism will only work with influential founders, po
 
 The answer is obvious: use the technology and infrastructure of core projects in decentralized economy, including ones utilizing an open source protocol. The BankEx Proof-of-Asset Protocol is precisely this kind of solution. 
 
-We present to you the procedure of creating a Smart Asset~--- ISAO (\textit{Initial Smart Asset Offering}) based on decentralization protocols, such as the BankEx Proof-of-Asset Protocol. Your asset, even if it’s an offline business, will be able to attract resources by tokenizing its assets using already made powerful technological protocols. You don’t need an ICO procedure, instead you can perform Asset Tokenization of your business using \textit{ISAO} (\textit{Initial Smart Asset Offering}). 
+We present to you the procedure of creating a Smart Asset~--- \textit{ISAO} (\textit{Initial Smart Asset Offering}) based on decentralization protocols, such as the BankEx Proof-of-Asset Protocol. Your asset, even if it’s an offline business, will be able to attract resources by tokenizing its assets using already made powerful technological protocols. You don’t need an ICO procedure, instead you can perform Asset Tokenization of your business using ISAO. 
 
 It’s simple. Use Smart Asset.  
 
@@ -383,13 +389,168 @@ indicate a potential quantity and quality of end-products. The ability to integr
 To give an example of high suitability for tokenization, let us examine late stage private shares that have yet to go public.
 These are assets that require very high legal, accounting and administration costs. 
 
-There are many investors in non-public companies who, early ones in particular, are ready to sell their shares, while other investors are interested in entering. But such companies are not public and their shares cannot be traded on the public stock market. Furthermore, they frequently can’t be resold without the approval of company board, since company management must control who their private shareholders are, and prevent their number from exceeding a certain quantity, because otherwise they would breach the limit of investors and become a public company. 
+There are many investors in non-public companies who, early ones in particular, are ready to sell their shares, while other investors are interested in entering. But such companies are not public and their shares cannot be traded on the public stock market. Furthermore, they frequently can’t be resold without the approval of company board, since company management must control who their private shareholders are, and prevent their number from exceeding a certain quantity, because otherwise they would breach the limit of investors and become a public company.
 
-These limitations, born from the inefficiency of a historically established system, are an inconvenience to everyone involved~--- both the investors and the company board. In particular, this inefficiency may often lead to disagreements among shareholders and the stalling of company development.  
+These limitations, born from the inefficiency of a historically established system, are an inconvenience to everyone involved~--- both the investors and the company board. In particular, this inefficiency may often lead to disagreements among shareholders and the stalling of company development.
+
 Blockchain technologies allow the necessary details on shares to be recorded in a Smart Contract. Part of the company share, intended for early investors or investors with a miniscule share, is tokenized as an asset in a Smart Asset. Its nominal holder can be any entity permitted by the legislation of the company’s location, such as an SPV. 
 
 After that, from the nominal token-holder’s perspective, they can easily change upon reaching consensus among themselves, as buyers or sellers of tokens of this Smart Asset. At the same time, shareholders are essentially not changing. All presence rights of token holders are passed to the SPV. For non-public companies that don’t want changes in their board of governing shareholders, obtaining liquidity of their capital via tokenization of part of their equity into a Smart Asset is essentially the only mutually acceptable option for all sides involved. 
-For early investors this method of investment becomes a new step to decreasing investment risks, and as a result increases the possibility of investment into formerly unavailable assets. 
+For early investors this method of investment becomes a new step to decreasing investment risks, and as a result increases the possibility of investment into formerly unavailable assets.
+
+\section{Fundamental Advantage of Tokenization for an Asset}
+
+The analytical block of BankEx, gathering and analyzing financial technologies from all over the world for several years, is seeing an interesting trend that has been forming around financial tools during the last few years. 
+
+If we take apart the basic needs of a person or a company in terms of movement of funds, it would be easy to discover that every person or company does not have that many basic financial needs, namely:
+    
+\begin{itemize}
+\item spending money;
+\item moving money;
+\item storing money;
+\item earning money.
+\end{itemize}
+
+By correlating these basic financial needs with the current range of financial technologies it turns out that today there is a strong leaning towards saturation of certain needs with financial technologies:
+
+\begin{itemize}
+\item \textbf{spending money}~--- the need that is most saturated and easiest to digitize. There are currently thousands of companies that help a person or a company to easily and quickly spend their money;
+\item \textbf{moving money}~--- similar in terms of saturation, but this basic need has several unresolved issues, including ones currently being addressed by our colleagues at Ripple;
+\item \textbf{storing money}~--- the need for people and companies to keep their money in their pockets is virtually non-existent today, having fully been digitized and moved to plastic cards and a whole range of innovative solutions. 
+\end{itemize}
+
+The BankEx Proof-of-Asset Protocol allows people and organizations to fulfill an important, vital need~--- the need to earn money. By becoming part of the Asset Community you will have the option of earning, and thus realizing yourself in fields of your choosing. 
+
+Cryptocurrencies solve the global issue of digitization of the human need to earn money, and altogether the emergence of cryptocurrencies is a technological response, solving this fundamental issue. 
+
+SmartDeal based on open source Smart Asset by the Proof-of-Asset Protocol is the next step. You will be able to build your future with your own hands.
+
+\section{BankEx Ecosystem}
+
+\textit{In progress...}
+
+\section{Protocol Description}
+
+\textit{In progress...}
+
+\section{Proof-of-Asset Protocol Implementation on Ethereum Platform}
+
+\subsection{Blockchain-agnostic}
+
+\textit{In progress...}
+
+\subsection{BKX Tokens}
+
+\textit{In progress...}
+
+\textbf{Value}. The smallest subdenomination of BKX is called Cent. All integer values are counted in Cent in the BankEx ecosystem. One BKX nomination is defined in Table~\ref{tab:tokens}.
+
+\begin{table*}
+    \caption{BKX Token Nomination}
+    \label{tab:tokens}\centering
+    \begin{tabularx}{0.5\textwidth}{|X|X|}
+        \hline
+            \thead{Multiplier} & \thead{Name} \\
+        \hline
+            \makecell{$10^0$} & \makecell{BKX Cent} \\
+            \makecell{$10^2$} & \makecell{BKX} \\
+        \hline
+    \end{tabularx}
+\end{table*}
+
+\textbf{Transaction} is a single cryptographically signed transaction based on the Ethereum blockchain. We have two types of transactions: \textit{smart-asset creation} and \textit{asset transfer} (from one wallet to another one, from a wallet to the BankEx Exchange and vice-versa). Each smart-asset will come with an internal reserve of BKX that will be used by all the functions used by the smart asset in the BankEx ecosystem. Functions associated with a transaction:
+
+\begin{description}
+\item[nonce]--- scalar value representing number of transactions sent by the sender, $T_{number}$
+\item[BankEx gas price]--- scalar value representing the number of BKX~Cent used to pay for the all computational costs included by the transaction accomplishment, $T_{BKX_{gas}}$
+\item[BankEx gas limit]--- maximal value of gas that be used to execute a transaction, $T_{BKX_{gasLimit}}$
+\item[to]--- address of the recipient. It will be represented in 160-bit similar to the Ethereum one, $T_{to}$
+\item[value]--- scalar value that represents a quantity of a given type of smart-asset, $T_{value}$
+\item[init]--- an unlimited syze byte array representing the EVM-code for account initialization procedure, same as in Ethereum, used when smart asset is created, $T_{init}$
+\item[data]--- unlimited syze byte array representing input data of a message call transaction, similar to Ethereum, $T_{data}$
+\end{description}
+
+This way any operations with a given smart asset can be represented by:
+
+\begin{equation}
+    \Omega(T) \equiv
+    \begin{cases} 
+        (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{init}) & \text{if } T_{to} = \emptyset, \\
+        (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{data}) & \text{otherwise}
+    \end{cases}
+\end{equation}
+
+Block and World State \cite{wood2014ethereum} structures will be similar to Ethereum ones, since BankEx ecosystem will be based on the Ethereum blockchain.
+
+\textbf{Smart asset creation}. This operation involves a few parameters: sender ($s$), original transactor ($ot$), available BKX gas ($g_{BKX}$), BKX gas price ($p_{BKX}$), BankEx escrow ($b_{escrow}$) and endowment ($\nu$) with the arbitrary length byte array ($i$), $EVM$ code and the depth of the message call/smart assert creation stack ($e$) (the parameters $s$, $ot$, $\nu$, $i$, $EVM$ and $e$)are identical to ones encoded in the Ethereum token.
+
+The first step of the smart asset creation will always involve the creation of a token on the Ethereum blockchain. We use the name $\sigma$ as in our Ethereum token that precedes the smart asset.
+
+We formally describe the creation of smart asset by:
+
+\begin{equation}
+    \left(\sigma', g', A\right) \equiv \Lambda_2\left(\sigma, s, ot, g_{BKX}, p_{BKX}, B_{escrow}, \nu, i, e\right)
+\end{equation}
+
+\subsection{Token Economics}
+
+\subsubsection{BKX Token Circulation in BankEx Ecosystem}
+
+\textit{In progress...}
+
+\subsubsection{Transaction Types in BankEx Ecosystem and Value Calculation Formulas}
+
+In cases when it's possible to use both BKX gas and Ethereum it will be cheaper to use BKX creating additional stimules to use them.
+
+\begin{equation}
+	\begin{split}
+    	f_{totalGas} & = \delta_{SA_{Creation}} \times f_{SA_{Creation}} \\
+    	& + \delta_{Transfer_{Internal}} \times f_{Transfer_{Internal}} \\
+    	& + \delta_{Withdrawal} \times f_{Withdrawal} \\
+    	& + \delta_{Oracle} \times f_{Oracle} \\
+    	& + \delta_{Market} \times f_{Market}
+    \end{split}
+\end{equation}
+
+\begin{equation*}
+	\text{where } \delta_i = 
+	\begin{cases}
+		1 & \text{if \textit{service is requested}} \\
+		0 & \text{otherwise}
+	\end{cases}
+\end{equation*}
+
+\textbf{Execution of smart-asset transaction}. Every operation involving smart assets will be using BankEx gas. We have developed system of fees, described in Table~\ref{tab:op-costs}.
+
+\begin{table*}
+    \caption{Operation costs}
+    \label{tab:op-costs}\centering
+    \begin{tabularx}{\textwidth}{|X|X|X|}
+		\hline
+			\thead{Purpose} & \thead{BKX Amount used} & \thead{Details} \\
+	    \hline
+    		\makecell[l]{Creation of a Smart Asset} & \makecell{100 =<} & \makecell[l]{Amount depends on \\ the complexity of the Smart Asset \\ and Ethereum Network load} \\
+		\hline
+            \makecell[l]{Transfer of the Smart Asset \\in BankEx ecosystem} & \makecell{2 =<} & \makecell[l]{Amount depends on the \\ complexity \\of the Smart Asset \\ and Ethereum Network load} \\
+		\hline
+            \makecell[l]{Destruction of the Smart Asset} & \makecell{5 =<} & \makecell[l]{Amount depends on \\the Ethereum Network load} \\
+		\hline
+            \makecell[l]{Adding a step in \\ the originator \\ verification chain} & \makecell{150 =<} & \makecell[l]{Depends on the service \\ which will be requested \\(scoring, KYC\ldots)} \\
+		\hline
+            \makecell[l]{Requesting the \enquote{Verified Status} \\ for the Smart Asset} & \makecell{400 =<} & \makecell[l]{Depends on the type \\and complexity of the asset} \\
+		\hline
+            \makecell[l]{Requesting Escrow Services} & \makecell{50 =<} & \makecell[l]{Depends on the type} \\
+	    \hline
+    \end{tabularx}
+\end{table*}
+
+\subsubsection{BKX Circulation in BankEx Ecosystem}
+
+\textit{In progress...}
+
+\subsubsection{Microsoft Azure Cloud Infrastructure Usage for Storage of Asset's Extra Data}
+
+\textit{In progress...}
 
 \end{multicols}
 
@@ -399,7 +560,8 @@ For early investors this method of investment becomes a new step to decreasing i
 \section{Terminology}
 \begin{description}
 \item[Blockchain]~--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
-\item[Tokenization]~--- process of converting rights into digital token to be circulated onver blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
+\item[ISAO]~--- Initial Smart Asset Offering
+\item[Tokenization]~--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
 \end{description}
 
 \printbibliography
