@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="612px"
+   height="332px"
+   version="1.1"
+   id="svg94"
+   sodipodi:docname="originator-supplier.svg"
+   inkscape:version="0.92.1 r15371"
+   inkscape:export-filename="/home/denis/projects/bankex/github/yellowpaper/images/originator-supplier.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata98">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2105"
+     inkscape:window-height="1272"
+     id="namedview96"
+     showgrid="false"
+     inkscape:zoom="2.0196078"
+     inkscape:cx="191.49657"
+     inkscape:cy="121.33553"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg94" />
+  <defs
+     id="defs2" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 6"
+     id="rect4"
+     pointer-events="none"
+     height="150"
+     width="610"
+     y="1.5"
+     x="1.5" />
+  <g
+     id="g10"
+     transform="translate(272,12)">
+    <switch
+       id="switch8">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="14"
+         width="68"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 68px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 14px">
+              <xhtml:b>Originator</xhtml:b>
+            </xhtml:font>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000"
+         id="text6"
+         font-size="12px"
+         y="13"
+         x="34">
+        <tspan
+           id="tspan4575"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Originator</tspan>
+      </text>
+    </switch>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path12"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 191.79,101.79 q 0,0 23.34,0" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path14"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 220.38,101.79 -7,3.5 1.75,-3.5 -1.75,-3.5 z" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path16"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 106.64,71.5 v -20 h 400 v 13.63" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path18"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 506.64,70.38 -3.5,-7 3.5,1.75 3.5,-1.75 z" />
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect20"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="71.5"
+     x="21.5" />
+  <g
+     id="g26"
+     transform="translate(38,88)">
+    <switch
+       id="switch24">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="26"
+         width="137"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 137px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Originator End Client</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(customer, fund, portfolio)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path28"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 391.79,101.79 q 0,0 23.34,0" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path30"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 420.38,101.79 -7,3.5 1.75,-3.5 -1.75,-3.5 z" />
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect32"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="71.5"
+     x="221.5" />
+  <g
+     id="g38"
+     transform="translate(251,81)">
+    <switch
+       id="switch36">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="40"
+         width="111"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 113px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Originator Agent</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(bank, ecom, fintech,<xhtml:br />
+
+IT-ecosystem, etc.)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect40"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="71.5"
+     x="421.5" />
+  <g
+     id="g46"
+     transform="translate(456,81)">
+    <switch
+       id="switch44">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="40"
+         width="101"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 101px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Smart Asset Type</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(choose product,<xhtml:br />
+
+tokenization type)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 6"
+     id="rect48"
+     pointer-events="none"
+     height="150"
+     width="610"
+     y="181.5"
+     x="1.5" />
+  <g
+     id="g54"
+     transform="translate(278,192)">
+    <switch
+       id="switch52">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="14"
+         width="56"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 58px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 14px">
+              <xhtml:b>Supplier</xhtml:b>
+            </xhtml:font>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000"
+         id="text50"
+         font-size="12px"
+         y="13"
+         x="28">
+        <tspan
+           id="tspan4577"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Supplier</tspan>
+      </text>
+    </switch>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path56"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 191.79,281.79 q 0,0 23.34,0" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path58"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 220.38,281.79 -7,3.5 1.75,-3.5 -1.75,-3.5 z" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path60"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 106.64,251.5 v -20 h 400 v 13.63" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path62"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 506.64,250.38 -3.5,-7 3.5,1.75 3.5,-1.75 z" />
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect64"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="251.5"
+     x="21.5" />
+  <g
+     id="g70"
+     transform="translate(46,261)">
+    <switch
+       id="switch68">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="40"
+         width="121"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 121px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Supplier End Client</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(investor, people,<xhtml:br />
+
+infrastructure element)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path72"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 391.79,281.79 q 0,0 23.34,0" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path74"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 420.38,281.79 -7,3.5 1.75,-3.5 -1.75,-3.5 z" />
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect76"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="251.5"
+     x="221.5" />
+  <g
+     id="g82"
+     transform="translate(251,261)">
+    <switch
+       id="switch80">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="40"
+         width="111"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 113px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Supplier Agent</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(bank, fund, investor,<xhtml:br />
+
+infrastructure owner)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <rect
+     style="fill:#ffffff;stroke:#000000"
+     id="rect84"
+     pointer-events="none"
+     height="60"
+     width="170"
+     y="251.5"
+     x="421.5" />
+  <g
+     id="g90"
+     transform="translate(448,261)">
+    <switch
+       id="switch88">
+      <foreignObject
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+         height="40"
+         width="117"
+         pointer-events="all"
+         style="overflow:visible;">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 119px; white-space: nowrap; word-wrap: normal; text-align: center;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:font
+               style="font-size: 12px">
+              <xhtml:b>Smart Asset Type</xhtml:b>
+            </xhtml:font>
+            <xhtml:div>
+              <xhtml:font
+                 style="font-size: 12px">(choose product, KYC<xhtml:br />
+
+accreditation token)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </switch>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="106.37292"
+     y="88.419998"
+     id="text4581"><tspan
+       sodipodi:role="line"
+       id="tspan4579"
+       x="106.37292"
+       y="88.419998"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold'">Originator End <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum Bold';text-align:center;text-anchor:middle"
+   id="tspan4585">Client</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="106.37292"
+       y="105.08666"
+       id="tspan4583"
+       style="font-size:13.33333302px">(customer, fund,</tspan><tspan
+       sodipodi:role="line"
+       x="106.37292"
+       y="121.75333"
+       style="font-size:13.33333302px"
+       id="tspan4587">portfolio)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="306.64233"
+     y="88.333336"
+     id="text4581-9"><tspan
+       sodipodi:role="line"
+       x="306.64233"
+       y="88.333336"
+       style="font-weight:bold;font-size:13.33333302px"
+       id="tspan4587-0">Originator Agent</tspan><tspan
+       sodipodi:role="line"
+       x="306.64233"
+       y="105"
+       style="font-size:13.33333302px"
+       id="tspan4679">(bank, ecom, fintech,</tspan><tspan
+       sodipodi:role="line"
+       x="306.64233"
+       y="121.66666"
+       style="font-size:13.33333302px"
+       id="tspan4681">IT-ecosystem, etc.)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="506.57385"
+     y="87.853333"
+     id="text4581-8"><tspan
+       sodipodi:role="line"
+       x="506.57385"
+       y="87.853333"
+       style="font-weight:bold;font-size:13.33333302px"
+       id="tspan4587-7">Smart Asset Type</tspan><tspan
+       sodipodi:role="line"
+       x="506.57385"
+       y="104.52"
+       style="font-size:13.33333302px"
+       id="tspan4690">(choose product,</tspan><tspan
+       sodipodi:role="line"
+       x="506.57385"
+       y="121.18667"
+       style="font-size:13.33333302px"
+       id="tspan4692">tokenization type)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="106.91135"
+     y="268.93332"
+     id="text4581-82"><tspan
+       sodipodi:role="line"
+       x="106.91135"
+       y="268.93332"
+       style="font-weight:bold;font-size:13.33333302px"
+       id="tspan4587-9">Supplier End Client</tspan><tspan
+       sodipodi:role="line"
+       x="106.91135"
+       y="285.59998"
+       style="font-size:13.33333302px"
+       id="tspan4701">(investor, people,</tspan><tspan
+       sodipodi:role="line"
+       x="106.91135"
+       y="302.26666"
+       style="font-size:13.33333302px"
+       id="tspan4703">infrastructure element)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="306.91135"
+     y="268.93332"
+     id="text4581-0"><tspan
+       sodipodi:role="line"
+       x="306.91135"
+       y="268.93332"
+       style="font-weight:bold;font-size:13.33333302px"
+       id="tspan4587-96">Supplier Agent</tspan><tspan
+       sodipodi:role="line"
+       x="306.91135"
+       y="285.59998"
+       style="font-size:13.33333302px"
+       id="tspan4712">(bank, fund, investor,</tspan><tspan
+       sodipodi:role="line"
+       x="306.91135"
+       y="302.26666"
+       style="font-size:13.33333302px"
+       id="tspan4714">infrastructure owner)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="506.24847"
+     y="268.45334"
+     id="text4581-2"><tspan
+       sodipodi:role="line"
+       x="506.24847"
+       y="268.45334"
+       style="font-weight:bold;font-size:13.33333302px"
+       id="tspan4587-1">Smart Asset Type</tspan><tspan
+       sodipodi:role="line"
+       x="506.24847"
+       y="285.12"
+       style="font-size:13.33333302px"
+       id="tspan4723">(choose product, KYC</tspan><tspan
+       sodipodi:role="line"
+       x="506.24847"
+       y="301.78668"
+       style="font-size:13.33333302px"
+       id="tspan4725">accreditation token)</tspan></text>
+</svg>

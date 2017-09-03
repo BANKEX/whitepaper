@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="572px"
+   height="372px"
+   version="1.1"
+   id="svg62"
+   sodipodi:docname="product-owner.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata66">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1937"
+     inkscape:window-height="1365"
+     id="namedview64"
+     showgrid="false"
+     inkscape:zoom="1.6466193"
+     inkscape:cx="276.98869"
+     inkscape:cy="244.73263"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g60" />
+  <defs
+     id="defs2" />
+  <g
+     transform="translate(0.5,0.5)"
+     id="g60">
+    <rect
+       x="1"
+       y="1"
+       width="570"
+       height="370"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-dasharray="6 6"
+       pointer-events="none"
+       id="rect4" />
+    <rect
+       x="21"
+       y="51"
+       width="530"
+       height="200"
+       pointer-events="none"
+       id="rect6"
+       stroke-dasharray="6 6"
+       stroke-width="2"
+       stroke="#000000"
+       fill="none" />
+    <g
+       transform="translate(189.5,11.5)"
+       id="g12">
+      <switch
+         id="switch10">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="192"
+           height="14"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 194px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 14px"><xhtml:b>Product Owner</xhtml:b>
+ (bnak, fintech)</xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="96"
+           y="13"
+           font-size="12px"
+           id="text8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000"><tspan
+   style="font-weight:bold;font-size:16px"
+   id="tspan4543">Product Owner</tspan>
+ (bank, fintech)</text>
+      </switch>
+    </g>
+    <rect
+       x="41"
+       y="96"
+       width="230"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect14" />
+    <g
+       transform="translate(254.5,61.5)"
+       id="g26">
+      <switch
+         id="switch24">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="52"
+           height="14"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 54px; white-space: nowrap; word-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+              <xhtml:font
+                 style="font-size: 14px">
+                <xhtml:b>Product</xhtml:b>
+              </xhtml:font>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="26"
+           y="13"
+           font-size="12px"
+           id="text22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-anchor:middle;fill:#000000">
+          <tspan
+             style="font-weight:bold;font-size:16px"
+             id="tspan4545">Product</tspan>
+        </text>
+      </switch>
+    </g>
+    <rect
+       x="296"
+       y="96"
+       width="230"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect28" />
+    <rect
+       x="41"
+       y="171"
+       width="230"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect36" />
+    <rect
+       x="296"
+       y="171"
+       width="230"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect44" />
+    <rect
+       x="21"
+       y="271"
+       width="530"
+       height="80"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect52" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="155.82053"
+       y="120.88667"
+       id="text4549"><tspan
+         sodipodi:role="line"
+         x="155.82053"
+         y="120.88667"
+         id="tspan4551"
+         style="font-weight:bold;font-size:13.33333302px">Product</tspan><tspan
+         sodipodi:role="line"
+         x="155.82053"
+         y="137.55333"
+         style="font-size:13.33333302px"
+         id="tspan4638">registration data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="155.80624"
+       y="196.25333"
+       id="text4549-2"><tspan
+         sodipodi:role="line"
+         x="155.80624"
+         y="196.25333"
+         id="tspan4551-4"
+         style="font-size:13.33333302px">Setup <tspan
+   style="font-weight:bold"
+   id="tspan4644">Originator</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="155.80624"
+         y="212.92"
+         style="font-size:13.33333302px"
+         id="tspan4642">product data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="410.62866"
+       y="122.43333"
+       id="text4549-4"><tspan
+         sodipodi:role="line"
+         x="410.62866"
+         y="122.43333"
+         id="tspan4551-9"
+         style="font-size:13.33333302px"><tspan
+   style="font-weight:bold"
+   id="tspan4628">Product</tspan> audit by BankEx</tspan><tspan
+         sodipodi:role="line"
+         x="410.62866"
+         y="139.09999"
+         style="font-size:13.33333302px"
+         id="tspan4626">Foundation adn other Escrow</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="410.80624"
+       y="196.25333"
+       id="text4549-3"><tspan
+         sodipodi:role="line"
+         x="410.80624"
+         y="196.25333"
+         style="font-size:13.33333302px"
+         id="tspan4612">Setup <tspan
+   style="font-weight:bold"
+   id="tspan4634">Supplier</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="410.80624"
+         y="212.92"
+         style="font-size:13.33333302px"
+         id="tspan4622">product data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="285.95688"
+       y="297.55334"
+       id="text4549-5"><tspan
+         sodipodi:role="line"
+         x="285.95688"
+         y="297.55334"
+         id="tspan4551-2"
+         style="font-weight:bold;font-size:13.33333302px">Product</tspan><tspan
+         sodipodi:role="line"
+         x="285.95688"
+         y="314.22"
+         style="font-size:13.33333302px"
+         id="tspan4606" /><tspan
+         sodipodi:role="line"
+         x="285.95688"
+         y="330.88669"
+         style="font-size:13.33333302px"
+         id="tspan4608">Smart Asset Tokenization and Other Magic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'TeX Gyre Bonum';-inkscape-font-specification:'TeX Gyre Bonum';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="530.89178"
+       y="-54.828056"
+       id="text4616"><tspan
+         sodipodi:role="line"
+         id="tspan4614"
+         x="530.89178"
+         y="-42.868057"></tspan></text>
+  </g>
+</svg>

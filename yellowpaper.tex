@@ -54,7 +54,7 @@
 \usepackage{cellspace}
 \usepackage{makecell}
 \renewcommand\theadfont{\normalfont\bfseries}
-\def\arraystretch{1.5}
+\def\arraystretch{2}
 %--------------------------------------
 
 % Math
@@ -63,8 +63,8 @@
 %--------------------------------------
 
 \title{BankEx Proof-of-Asset Protocol}
-\author{Yellow Paper, version 0.1.3 alpha}
-\date{September 01, 2017}
+\author{Yellow Paper, version 0.1.4 alpha}
+\date{September 03, 2017}
 
 \begin{document}
 
@@ -323,7 +323,7 @@ Everything in our world is relatively liquid. The Figure~\ref{fig:blackstone} is
 \begin{figure*}
   \centering
   \includegraphics[width=\textwidth]{blackstone.png}
-  \caption{Everything Is (Relatively) Illiquid\\\textit{Based on \cite{blackstone2015}, source: \cite{ilmanen2011expected}. For illustrative purposes only}}
+  \caption{Everything Is (Relatively) Liquid\\\textit{Based on \cite{blackstone2015}, source: \cite{ilmanen2011expected}. For illustrative purposes only}}
   \label{fig:blackstone}
 \end{figure*}
 
@@ -441,12 +441,10 @@ SmartDeal based on open source Smart Asset by the Proof-of-Asset Protocol is the
 
 \subsection{BKX Tokens}
 
-\textit{In progress...}
-
-\textbf{Value}. The smallest subdenomination of BKX is called Cent. All integer values are counted in Cent in the BankEx ecosystem. One BKX nomination is defined in Table~\ref{tab:tokens}.
+\textbf{Value}. The smallest subdenomination of BKX is called Cent. All integer values are counted in Cent in the BankEx ecosystem. BKX denomination is defined in Table~\ref{tab:tokens}.
 
 \begin{table*}
-    \caption{BKX Token Nomination}
+    \caption{BKX Token Denomination}
     \label{tab:tokens}\centering
     \begin{tabularx}{0.5\textwidth}{|X|X|}
         \hline
@@ -466,8 +464,8 @@ SmartDeal based on open source Smart Asset by the Proof-of-Asset Protocol is the
 \item[BankEx gas limit]--- maximal value of gas that be used to execute a transaction, $T_{BKX_{gasLimit}}$
 \item[to]--- address of the recipient. It will be represented in 160-bit similar to the Ethereum one, $T_{to}$
 \item[value]--- scalar value that represents a quantity of a given type of smart-asset, $T_{value}$
-\item[init]--- an unlimited syze byte array representing the EVM-code for account initialization procedure, same as in Ethereum, used when smart asset is created, $T_{init}$
-\item[data]--- unlimited syze byte array representing input data of a message call transaction, similar to Ethereum, $T_{data}$
+\item[init]--- an unlimited size byte array representing the EVM-code for account initialization procedure, same as in Ethereum, used when smart asset is created, $T_{init}$
+\item[data]--- unlimited size byte array representing input data of a message call transaction, similar to Ethereum, $T_{data}$
 \end{description}
 
 This way any operations with a given smart asset can be represented by:
@@ -476,6 +474,7 @@ This way any operations with a given smart asset can be represented by:
     \Omega(T) \equiv
     \begin{cases} 
         (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{init}) & \text{if } T_{to} = \emptyset, \\
+        \\
         (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{data}) & \text{otherwise}
     \end{cases}
 \end{equation}
@@ -489,7 +488,7 @@ The first step of the smart asset creation will always involve the creation of a
 We formally describe the creation of smart asset by:
 
 \begin{equation}
-    \left(\sigma', g', A\right) \equiv \Lambda_2\left(\sigma, s, ot, g_{BKX}, p_{BKX}, B_{escrow}, \nu, i, e\right)
+    \left(\sigma', g', A\right) \equiv \Lambda_2\left(\sigma, s, ot, g_{BKX}, p_{BKX}, b_{escrow}, \nu, i, e\right)
 \end{equation}
 
 \subsection{Token Economics}
@@ -520,22 +519,22 @@ In cases when it's possible to use both BKX gas and Ethereum it will be cheaper 
 	\end{cases}
 \end{equation*}
 
-\textbf{Execution of smart-asset transaction}. Every operation involving smart assets will be using BankEx gas. We have developed system of fees, described in Table~\ref{tab:op-costs}.
+\textbf{Execution of smart-asset transaction}. Every operation involving smart assets will be using BankEx gas. We have developed system of fees, described in Table~\ref{tab:op-fees}.
 
 \begin{table*}
-    \caption{Operation costs}
-    \label{tab:op-costs}\centering
-    \begin{tabularx}{\textwidth}{|X|X|X|}
+    \caption{System operation fees}
+    \label{tab:op-fees}\centering
+    \begin{tabularx}{0.85\textwidth}{|c|c|X|}
 		\hline
-			\thead{Purpose} & \thead{BKX Amount used} & \thead{Details} \\
+			\thead{Purpose} & \thead{BKX \\ Amount \\ used} & \thead{Details} \\
 	    \hline
-    		\makecell[l]{Creation of a Smart Asset} & \makecell{100 =<} & \makecell[l]{Amount depends on \\ the complexity of the Smart Asset \\ and Ethereum Network load} \\
+    		\makecell[l]{Creation of a Smart Asset} & \makecell{100 =<} & \makecell[l]{Amount depends on the complexity of the \\ Smart Asset and Ethereum Network load} \\
 		\hline
-            \makecell[l]{Transfer of the Smart Asset \\in BankEx ecosystem} & \makecell{2 =<} & \makecell[l]{Amount depends on the \\ complexity \\of the Smart Asset \\ and Ethereum Network load} \\
+            \makecell[l]{Transfer of the Smart Asset \\in BankEx ecosystem} & \makecell{2 =<} & \makecell[l]{Amount depends on the complexity of the \\ Smart Asset and Ethereum Network load} \\
 		\hline
-            \makecell[l]{Destruction of the Smart Asset} & \makecell{5 =<} & \makecell[l]{Amount depends on \\the Ethereum Network load} \\
+            \makecell[l]{Destruction of the Smart Asset} & \makecell{5 =<} & \makecell[l]{Amount depends on \\ the Ethereum Network load} \\
 		\hline
-            \makecell[l]{Adding a step in \\ the originator \\ verification chain} & \makecell{150 =<} & \makecell[l]{Depends on the service \\ which will be requested \\(scoring, KYC\ldots)} \\
+            \makecell[l]{Adding a step in the originator \\ verification chain} & \makecell{150 =<} & \makecell[l]{Depends on the service which will \\ be requested (scoring, KYC\ldots)} \\
 		\hline
             \makecell[l]{Requesting the \enquote{Verified Status} \\ for the Smart Asset} & \makecell{400 =<} & \makecell[l]{Depends on the type \\and complexity of the asset} \\
 		\hline
