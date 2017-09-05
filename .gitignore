@@ -218,6 +218,3 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
-
-# pre-compiled pdf images
-images/*.pdf
