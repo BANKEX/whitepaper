@@ -58,7 +58,7 @@
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
 %\title{BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.1.5 alpha}
+\author{The Smart White Paper, version 0.2.0 alpha}
 \date{September 05, 2017}
 
 \begin{document}
@@ -103,11 +103,15 @@ All examples and demonstrations in this White Paper are used only as demonstrati
 
 \subsection{Game Theory Behind the Proof-of-Asset Protocol}
 
-Game Theory\footnote{\textbf{Game theory} is the study of the ways in which \textit{interacting choices} of \textit{economic agents} produce outcomes with respect to the \textit{preferences} (or \textit{utilities}) of those agents, where the outcomes in question might have been intended by none of the agents \cite{stanfordGameTheory}.} is a branch of mathematical economics focusing on the outcomes of conflicts between players, and the optimality of their strategies. Analysis carried out according to game theory indicates that the global financial market is currently trapped in the sub-optimal equilibrium of the prisoner’s dilemma. This dilemma is a fundamental problem of game theory, illustrating how players will sometimes fail to cooperate even if it was in their best interest.
+Game Theory\footnote{\textbf{Game theory} is the study of the ways in which \textit{interacting choices} of \textit{economic agents} produce outcomes with respect to the \textit{preferences} (or \textit{utilities}) of those agents, where the outcomes in question might have been intended by none of the agents \cite{stanfordGameTheory}.} is a branch of mathematical economics focusing on the outcomes of conflicts between players, and the optimality of their strategies.
+
+Game theory is one of the prime fundamental directions in economics. 11 scientists specializing in game theory have received the Nobel Memorial Prize in Economic Sciences, including John Nash \cite{nash1950}, \cite{nash1951}, responsible for introducing one of the key concepts in game theory, known as the Nash equilibrium. It is a state in which a single player cannot benefit by changing strategy while the other players keep their set of chosen strategies unchanged. 
+
+Analysis carried out according to game theory indicates that the global financial market is currently trapped in the sub-optimal equilibrium of the prisoner’s dilemma. This dilemma is a fundamental problem of game theory, illustrating how players will sometimes fail to cooperate even if it was in their best interest.
 
 We see that players in financial markets distrust each other and keep overpaying for an inefficient set of various ratings, scores and audits, although these are frequently wrong (as with the Enron scandal and the subprime mortgage crisis). This inefficiency leads to high costs and often losses, which in turn raise the cost of capital and lead to a lack of access to capital for decentralized small businesses or borrowers. Another issue derived from this dilemma is the obstructing cost of deployment to the public market. If this barrier is removed, then the market itself is cable to evaluate every asset based on the collective wisdom of all trading participants, as the increase in volume of transparent and authentic trade operations provides more information that can be used by the market to verify the assets.
 
-We offer a solution~--- the Proof-of-Asset Protocol, the point of which is an instant audit of the asset. Now every investor is aware of the status of his investments in non-public companies and assets. Equipped with this tool, the market will force certain businesses to change (lawyers, accounting, auditors, and in separate cases banks and collectors). What is our plan? We will begin by modernizing the mechanisms of assigning and validating ratings, as the cash flow recorded on the blockchain using the Proof-of-Asset protocol is transparent, understandable, as well as much faster and cheaper. In essence, the asset’s state is being constantly monitored by the logic of smart-contracts.  
+We offer a solution~--- the Proof-of-Asset Protocol, the point of which is an instant audit of the asset. Now every investor is aware of the status of his investments in non-public companies and assets. Equipped with this tool, the market will force certain businesses to change (lawyers, accounting, auditors, and in separate cases banks and collectors). What is our plan? We will begin by modernizing the mechanisms of assigning and validating ratings, as the cash flow recorded on the blockchain using the Proof-of-Asset protocol is transparent, understandable, as well as much faster and cheaper. In essence, the asset’s state is being constantly monitored by the logic of smart-contracts.
 
 In turn, the increased amount of information on economical operations and their authenticity grant new opportunities for the development of an economical AI, building sufficiently precise artificial intelligence systems for risk evaluation, making the cost of such calculations approach zero. This would enable the creation of a competitive market of economical AI working for the good of modern society. 
 
@@ -191,7 +195,7 @@ Notably, microservices can be fully managed by different teams in compliance wit
   \label{fig:microservice-vs-monolyth}
 \end{figure*}
 
-\subsection{Blockchain Serviсe Architecture (\textit{Blockchain~SA})}
+\subsection{Blockchain Serviсe Architecture}
 
 On an Ethereum blockchain micro-service, architecture is used in the implementation of external oracles. At the same time, the Ethereum network is itself an example of network that uses the concept of micro-services, since it contains all the characteristic features of micro-services
 (Figure~\ref{fig:blockchain-microservice-architecture}):
@@ -211,15 +215,15 @@ On an Ethereum blockchain micro-service, architecture is used in the implementat
 
 The logic of the BankEx liquidity protocol is based on the concept of the Ethereum smart contract\footnote{The phrase \enquote{\textit{smart contract}} was coined by Nick Szabo initially in \cite{szabo1996} and later in \cite{szabo1997}.}, and accordingly uses all of its infrastructure advantages. At the same time, technically, the BankEx protocol is a series of smart contract updates, however these smart contract updates are not micro-services themselves, the micro-services are in relation between API calls themselves. From our side, the business tasks of the protocol, which require a classical micro-service architecture, are realized through the creation of the oracle system. Protocol oracles are designed strictly according to the principles of the micro-services, that is, the instances of these oracles should be automatically added under the required conditions. In this case, dynamic balancing of the number of oracle instances is used. Part of the BankEx oracles is implemented on the basis of Microsoft Azure cloud technologies, since it's one of the most bank friendly platforms. An example of the protocol logic was realized through the interaction with the signals from Internet of Things sensors.
 
-But for the description of the BankEx Proof-of-Asset protocol the definition of the micro-service architecture is not entirely correct. BankEx team calls it the \textit{Blockchain Service Architecture} (\textit{Blockchain~SA}).
+But for the description of the BankEx Proof-of-Asset protocol the definition of the micro-service architecture is not entirely correct. BankEx team calls it the \textit{Blockchain Service Architecture}.
 
-\paragraph*{Blockchain~SA} is a sequence of smart contracts, every step of which can be customized by a predetermined pool of actors validated for the particular step of the included smart contracts, while the contents of contracts in a step and the number of steps are embedded in the business logic necessary to tokenize the Smart Asset.
+\paragraph*{Blockchain Service Architecture} is a sequence of smart contracts, every step of which can be customized by a predetermined pool of actors validated for the particular step of the included smart contracts, while the contents of contracts in a step and the number of steps are embedded in the business logic necessary to tokenize the Smart Asset.
 
 It is an asset tokenization constructor, but one that only works in a sequence of smart contracts correctly arranged after one another, supplemented with oracles connected as micro-services. 
 
 This allows to tokenize an asset with maximum precision and transparency for all participants of the market, while also working in line with the open source BankEx Proof-Of-Asset protocol. 
 
-\subsection{Complexity regulation of the Blockchain~SA}
+\subsection{Complexity regulation of the Blockchain Service Architecture}
 
 We often hear from technical experts: Your protocol is too complicated. Other technical gurus say~--- your protocol is too simple. Yes, they are correct. The complexity of the BankEx protocol, which is based on the Blockchain Service Architecture, is regulated by the increase/decrease in the number of smart contracts in the tokenization logic (Figure~\ref{fig:smart-asset-contract-chain}).
 
@@ -230,7 +234,7 @@ We often hear from technical experts: Your protocol is too complicated. Other te
   \label{fig:smart-asset-contract-chain}
 \end{figure*}
 
-The creation of a smart asset of a certain type does not necessary use all the steps that are laid out in the Blockchain~SA, only the steps of the smart contract chain that are required by a particular Smart Asset are used. The simplest Smart Asset consists of three steps: initialization, validation, and valuation. And in this case the Smart Asset will fulfill its mission~--- make the asset liquid. It’s not complicated at all. 
+The creation of a smart asset of a certain type does not necessary use all the steps that are laid out in the Blockchain Service Architecture, only the steps of the smart contract chain that are required by a particular Smart Asset are used. The simplest Smart Asset consists of three steps: initialization, validation, and valuation. And in this case the Smart Asset will fulfill its mission~--- make the asset liquid. It’s not complicated at all. 
 
 At the same time, BankEx is an old company in the sphere of financial technologies, classic fintech. We know very well how complex financial tools can be, and how difficult it is to properly formalize them. Our solution is the Blockchain Service Architecture~--- exactly what you need. You can add any level of complexity to the asset tokenization chain which will result in a Smart Asset.
 
@@ -238,7 +242,7 @@ Moreover, the Smart Asset retains all the features of a blockchain Smart Contrac
 
 You can add your own logic block to the BlockchainService chain~--- Proof-of-Asset Protocol, because it is an open source code. To do that~--- you will need to address the BankEx Foundation community.
 
-\subsection{Benefits of Blockchain~SA}
+\subsection{Benefits of the Blockchain Service Architecture}
 
 \paragraph*{Why would the service architecture of the future use blockchain?} In the existing infrastructure, a large application or product consists of a large number of modules which are almost always developed by different teams, and, even if the teams work within the same bank, they still requires a large number of cash flows between different participants in the system and a large amount of agreements and inspections. It is costly, time consuming, and very likely to result in mistakes, including system errors.
 
@@ -319,6 +323,170 @@ They also play a major role in stock exchanges, and historically exchanges have 
 The BankEx Proof-of-Asset Protocol includes \textbf{Smart Asset Exchange}, support of liquidity of Smart Assets being traded within the protocol is an important task for BankEx. It’s important to note that market making to support liquidity of Smart Assets in OrderBook is a more complex task than it is on a classic stock market. This is due to certain types of Smart Assets having more characteristics that affect price, than the classic balance of supply and demand. 
 
 Another significant note is that the BankEx Proof-of-Asset Protocol is based on the Ethereum blockchain, meaning Smart Asset tokens issued in the ecosystem of BankEx can be traded on any market supporting the ERC20 standard.
+
+\section{Originator, Product Owner and Supplier}
+
+Schematic of the Proof-of-Asset Protocol
+In previous sections we have examined the Bank-as-a-Service product model and the concept of Smart Asset Tokenization. These are two big entities, so you may want to know just how BankEx combines them in its protocol.
+
+The Proof-of-Asset Protocol is the technology for interaction of multiple sides that normally take part in financial deals, but the most important, system-forming sides of the protocol are these three:
+	
+\begin{itemize}
+\item originator;
+\item supplier;
+\item product owner.
+\end{itemize}
+
+Let us examine them using the schematic depicted on the Figure~\ref{fig:asset-bankex-exchange-capital}.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{asset-bankex-exchange-capital.png}
+  \caption{Asset~--- BankEx~--- Exchange~--- Capital}
+  \label{fig:asset-bankex-exchange-capital}
+\end{figure*}
+
+\subsection{Originator}
+
+On the left side of the schematic is the asset. The originator is the owner of the asset that is being tokenized. The BankEx protocol allows for the originator to have different roles. On the schematic, for example, the Originator is marked as an end client.
+
+As we've already said, the originator is the owner of the asset tokenized. But despite the originator being the owner of the asset being tokenized, he can also serve as the storefront for products of other originators (types of tokenization - types of Smart Assets). This is something we’ve discussed while examining the BaaS model.
+
+Normally the originator for financial assets is a Bank, but even today it can be an internet-platform (ecosystem), ecommerce, a fintech platform, a stock exchange, a broker, an insurance company. Meaning this is the company the end client goes to, the owner of a client. Anyone can see this almost daily, the simplest example being an IT-company or ecommerce offering their clients more and more new services, including financial ones. They are originators.
+
+It is also fair to assume that there is the option of tokenizing an end client’s assets without the participation of a product storefront. That's why, based on the methodology of processing data in blockchain systems, we define two different types of originators (Figure~\ref{fig:originator}).
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.6\textwidth]{originator.pdf}
+  \caption{Asset Originator}
+  \label{fig:originator}
+\end{figure*}
+
+\textbf{Originator Agent}~--- an organization (such as a bank), which serves as a storefront for an end client, is the owner of client data or searches for clients wishing to conduct tokenization.
+
+\textbf{Originator End client}~--- an end client wishing to create a Smart Asset in the BankEx ecosystem, which will be backed by an provided asset.
+
+\subsubsection*{Several important notes}
+
+Both roles can be filled by one and the same organization simultaneously. For instance, a bank tokenizing assets that the bank itself owns. 
+
+From a technological standpoint it is also possible to omit the Originator Agent role in the event of, for example, an end client owning a large asset that they can tokenize themselves. To that end an Originator End client asset needs to have sufficient capitalization. 
+
+For small end clients, work through an Originator Agent is the only possible method to create a liquid Smart Asset. This will be discussed further, as we will examine this very situation in the form of merging requests into portfolios and, possibly, securitization. 
+
+It is also easy to see that tokenization is no threat to Originator Agents, such as banks that are owners of storefronts or end clients, but rather an opportunity for them to provide their end clients with new services and benefits in merging client requests (also similar to securitization).
+
+Thus the Originator in the protocol has the following characteristics:
+
+\begin{itemize}
+\item role: creator of the Smart Asset;
+\item function: providing asset for tokenization, initiating Smart Asset creation.
+\end{itemize}
+
+Here’s a simple example: a small business enterprise (\textit{SME}) \textit{Originator End client} comes to a bank \textit{Originator Agent} wishing to receive a small business enterprise loan \textit{Product (Smart Asset Type)}. The bank has a product: small business enterprise loan \textit{Product Instance 1}, and receives the enterprise’s request. Next the bank has its scoring procedure for this enterprise in order to make a decision on the loan, but the results of scoring mean that the loan cannot be given according to the bank’s rules \textit{Product Instance 1}. The bank automatically checks other available product instances fitting the request and finds an alternative, such as small business crowdfunding \textit{Product Instance 2}, the requirements of which are well suited for \textit{Originator End client}. Then the deal can be made.
+
+As a result, the bank gives the client the product they require, while also keeping their client and satisfying them, instead of turning them down and forcing them to look for a different bank, which may lead to irreversible loss of a client for the bank.
+
+\subsection{Product Owner: Vision}
+
+\textit{Product Owner}~--- a company that creates various fintech products. In the future it will become something more - both the company and the community that create product technologies together.
+
+It's a Solution provider, Product provider and finally Technology Provider. 
+Mainly it is a company that owns the technology of Smart Asset creation based on the Blockchain Service Architecture and it creates new types of Smart Assets for the Originator.
+
+At the time of Summer 2017 the BankEx Proof-of-Asset Protocol ecosystem has two functioning Product Owners~--- daughter company Findelivery (founded in 2015) and BankEx~Lab (founded in 2016). It was BankEx Lab that created the Smart Asset Types that you can try out today by using the tokenization demo \url{https://dev-web-prototype-bankex.azurewebsites.net/}
+
+Obviously the mission of developing and creating all types of SmartAsset the world needs neither can nor should be undertaken by the fintech team of BankEx Lab alone. That’s why it’s important to us that more and more smart contract developers from banks and fintech companies, as well as blockchain community specialists join the Proof-of-Asset Protocol ecosystem.
+
+BankEx is creating the protocol architecture with the goal of creating various types of Smart Assets and in our ideal vision of the future, every type of asset will come to have an Asset Community formed for its development, support and audit.
+
+We must note that, for differing locations and jurisdictions the same Smart Asset (Product) would have a differing Product Instance, because for the moment different countries have different laws and legal conditions for transaction processing. This means an enormous number of tasks for developers, for programmers who will be working on the Smart Asset code that will change the way deals are made in the whole world.
+
+Realization of this task is upon the BankEx Foundation. Every Product Owner can become part of the BankEx Foundation and make his own contribution to the tokenization of deals worldwide. An important function of the Asset Community in the BankEx Foundation is support of Product Owners by providing access to product expertise and security audit of the written smart contract code.
+CEO of the BankEx Foundation Petr Korolev, successfully worked with the BankEx Lab team to develop one of the Product Instances of the protocol in August 2017 at a hackathon (Figure~\ref{fig:hackathon-2017}). BankEx’s Ethereum storage of mortgage securities earned BankEx first prize of the blockchain hackathon from the hands of Ethereum Foundation Council’s Vitalik Buterin. During development the Blockchain Service Architecture methodology was used, which allowed the creation of a superior quality Product Instance from scratch both significantly quicker and more efficiently than other competitors.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.6\textwidth]{hackathon-2017.jpg}
+  \caption{Vitalik Buterin and BankEx Lab Team at Blockchain Hackathon. September 29, 2017, Kazan, Russia}
+  \label{fig:hackathon-2017}
+\end{figure*}
+
+It's important to remember that Product Owner, just like separate Product Instances, is a business. A Product Owner can issue Smart Asset tokens, and subsequently provide product expertise, offer audit services or technical support for his Smart Asset Type together with the BankEx Foundation.
+
+\subsection{Product Owner: Certification}
+
+Obviously, both Product and Product Instances created by the Product Owner based on the Proof-of-Asset Protocol must be certified. This is particularly important for financial Smart Assets. That’s why the ecosystem includes the Smart Asset Certification Center (\textit{SACC}).
+
+The mission of the certification center is to ensure the security of Smart Assets created. Today we can see an industry paradox, which is that the blockchain, created as a technological solution to ensure, first and foremost, the security of transactions, is frequently attacked, and such attacks are occasionally successful. We understand that this is the issue of blockchain technology's rapid development and new solutions must stand the test of time.
+
+To solve this issue BankEx utilizes the concept of the Smart Asset Certification Center. Its key mission is a synergy of interaction between classical financial institutions and the newest decentralized communities.
+
+This concept is already functioning today. Despite being an innovative approach, we have already turned to it in reality several times. Here's how it works. On the one hand, BankEx is a classical fintech company, known and valued in many classical banks and financial institutes.On the other hand, founders of BankEx are all fairly experienced members of the blockchain community. 
+
+This allows synergy when evaluating the Solidity of open source code of new Smart Assets. Here's how it is done currently:
+
+\begin{itemize}
+\item first, the Product Owner creates the Smart Asset code and the code goes to BankEx Lab;
+\item next, BankEx Lab conducts code analysis using in-house programmers;
+\item next, even after the brilliant technical expertise of BankEx Lab's inhouse team, the program code is sent for audit to our partners with old school global technology consultancy, receiving feedback on code quality from top level IT specialists working with leading technological brands in the world; 
+\item next step, the updated code is sent to be checked by programmers from several blockchain communities. Their experience is priceless. Almost all of them have had a chance to learn the price of Smart Contract bugs on their own wallets;
+\item as the final step of the code audit, the code is validated together with all suggested fixes from all sources by members of the BankEx Foundation together with the Asset Community and other friendly blockchain foundations.
+\end{itemize}
+
+This process may at first glance seem to take more time to validate the Smart Asset code's quality, but when you are steeped in the atmosphere of blockchain research and development, you come to realize that in greenfield smart product development experience of programmers with various training backgrounds allows to achieve impressive results and optimal code quality as quickly as possible.
+	
+Resulting from the work of the Smart Asset Certification Center, you receive a guarantee of the Smart Asset code's safety from Bankex, a company well known and recognized by the global financial community and listed among the top 50 fintech companies worldwide\footnote{According to \cite{top2017}}.
+
+It can be added that the BankEx team, being a pioneer on the market of legally valid audit of Smart Assets, understands that audit of blockchain-based smart contracts is a new and enormous industry that will augment and possibly replace the existing order of business consulting. We are ready to work in this direction with all players interested in smart contract security, from community teams to consulting leaders.We have no agreements with consulting on paper, but we are negotiating these matters with virtually all the world leaders of consulting and audit, such as Microsoft, E\&Y, PWC, Deloitte and others. Their interest in this topic over the last year has greatly increased and that is the correct approach for everyone.
+
+\subsection{Product Owner: Basic Information}
+
+In the last few segments we have determined the mission of the Product Owner~--- it’s a company that creates various products, meaning types of Smart Assets based on the Proof-of-Asset Protocol.
+
+The Product Owner has the following characteristics in the protocol:
+
+\begin{itemize}
+\item role: technology owner;
+\item function: to provide technology to Originators in order to tokenize assets. To create various Products and Product Instances on the BankEx for members of the BankEx ecosystem. Every Product Owner is a member of the BankEx Foundation. Products and Product Instances that come from Product Owners must be  certified using the Smart Asset Certification Center.
+\end{itemize}
+
+Let us examine the Product Owner from an initial data standpoint using the schematic on Figure~\ref{fig:product-owner}.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.6\textwidth]{product-owner.pdf}
+  \caption{Product Owner}
+  \label{fig:product-owner}
+\end{figure*}
+
+A new Product Owner joining the Smart Asset ecosystem must provide basic registration info. To become a member of the BankEx Foundation this needs to be a company with a registered legal entity and a bank account.
+
+Code of products created by the Product Owner can go not only through a BankEx audit, but also audit of other organizations and community teams via the Smart Asset Certification Center.
+
+Product~--- a Smart Asset Token, consisting of a chain of smart contracts, based on the Blockchain Service Architecture methodology and the rules of the BankEx Proof-of-Asset Protocol. The methodology gives the option of creating a Smart Asset on any blockchain, but currently all Smart Assets are being created by the BankEx team on the Ethereum blockchain. 
+
+Formulas written into the product set the rules for product info that has to be digitized by the Originator and Supplier during tokenization, determining the interconnection between three of the main entities of the protocol.
+
+We call this \enquote{Smart Asset initialization data}.
+
+\subsection{Product Owner: Smart Asset Catalog}
+
+After examining the entity of the Product Owner, we now understand that the Proof-of-Asset Protocol is able to realize a multitude of product solutions and Product Instances depending on application, location and legal conditions. The number of Product Instances is not limited, so to introduce the Product in a new country or account for a change in current legal conditions, the Product Owner needs only update the Smart Asset formulas and releases a new Product Instance. 
+
+With time a large number of Product Instances is going to form for every Smart Asset Type and this number will form a product catalogue that the protocol’s ecosystem will interact with. The BankEx team calls this the \enquote{\textit{Smart Asset Catalog}}.
+
+Let’s examine how members of the BankEx ecosystem interact with the Smart Asset Catalog using a schematic. 
+
+As you can see, we have the BankEx Lab \textit{Product Owner 1}, which, for instance, has created a Smart Asset~--- Blockchain KYC \textit{Product}. This technology is going to be listed in the Smart Asset Catalog //Product Catalog// of the Proof-of-Asset Protocol catalogue. This is very similar to Product Containers utilized in classical banking development.
+
+Let’s say that next two companies came to the ecosystem: Company A from Japan and Company B from USA with the intention to sell the Blockchain KYC technology \textit{Product} in their countries. For these companies and, more importantly, together with them as they have better understanding of the particular traits of business in their country, the BankEx Lab \textit{Product Owner 1} develops a Blockchain KYC \textit{Product} solution for the Japanese market \textit{Product Instance 1} as well as a solution for the US market \textit{Product Instance 2}.
+Next let’s imagine some time after the above a fintech lab called Another Lab \textit{Product Owner 2} develops a Smart Asset for the Blockchain KYC technology \textit{Product}, which gives this technology new consumer features, which could be either superior or inferior to the predecessor. In order to introduce this new technology to the Proof-of-Asset Protocol ecosystem, Another Lab \textit{Product Owner 2} chooses the country and jurisdiction where they wish to apply their solution, and they find an integrator, Company D.
+
+Company D is, for instance, a company on the market of Singapore, where it realizes its solution \textit{Product Instance 3}, which updates the product catalog for the Blockchain KYC technology \textit{Product} with a new instance.
+
+It’s important to note that Smart Asset pioneers who hold the role of Product Owners of their technologies can realize Product Instances for the first solutions on their own, without the need to involve third party integrators. Decentralized Product technology allows to perform integration in the most efficient way possible, skipping steps that would not apply to a particular situation.
 
 \section{Target assets for tokenization}
 
@@ -431,25 +599,23 @@ Cryptocurrencies solve the global issue of digitization of the human need to ear
 
 SmartDeal based on open source Smart Asset by the Proof-of-Asset Protocol is the next step. You will be able to build your future with your own hands.
 
-\section{BankEx Ecosystem}
+\end{multicols}
 
-\textit{In progress...}
+\newpage
+\appendix
 
-\section{Protocol Description}
+\section{Terminology}
+\begin{description}
+\item[Blockchain]--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
+\item[ISAO]--- Initial Smart Asset Offering
+\item[Tokenization]--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
+\end{description}
 
-\textit{In progress...}
-
-\section{Proof-of-Asset Protocol Implementation on Ethereum Platform}
-
-\subsection{Blockchain-agnostic}
-
-\textit{In progress...}
-
-\subsection{BKX Tokens}
+\section{BKX Tokens Economy}
 
 \textbf{Value}. The smallest subdenomination of BKX is called Cent. All integer values are counted in Cent in the BankEx ecosystem. BKX denomination is defined in Table~\ref{tab:tokens}.
 
-\begin{table*}
+\begin{table*}[h]
     \caption{BKX Token Denomination}
     \label{tab:tokens}\centering
     \begin{tabularx}{0.5\textwidth}{|X|X|}
@@ -497,13 +663,7 @@ We formally describe the creation of smart asset by:
     \left(\sigma', g', A\right) \equiv \Lambda_2\left(\sigma, s, ot, g_{BKX}, p_{BKX}, b_{escrow}, \nu, i, e\right)
 \end{equation}
 
-\subsection{Token Economics}
-
-\subsubsection{BKX Token Circulation in BankEx Ecosystem}
-
-\textit{In progress...}
-
-\subsubsection{Transaction Types in BankEx Ecosystem and Value Calculation Formulas}
+\section{Transaction Types in BankEx Ecosystem and Value Calculation Formulas}
 
 In cases when it's possible to use both BKX gas and Ethereum it will be cheaper to use BKX creating additional stimules to use them.
 
@@ -527,7 +687,7 @@ In cases when it's possible to use both BKX gas and Ethereum it will be cheaper 
 
 \textbf{Execution of smart-asset transaction}. Every operation involving smart assets will be using BankEx gas. We have developed system of fees, described in Table~\ref{tab:op-fees}.
 
-\begin{table*}
+\begin{table*}[h]
     \caption{System operation fees}
     \label{tab:op-fees}\centering
     \begin{tabularx}{0.85\textwidth}{|c|c|X|}
@@ -548,26 +708,6 @@ In cases when it's possible to use both BKX gas and Ethereum it will be cheaper 
 	    \hline
     \end{tabularx}
 \end{table*}
-
-\subsubsection{BKX Circulation in BankEx Ecosystem}
-
-\textit{In progress...}
-
-\subsubsection{Microsoft Azure Cloud Infrastructure Usage for Storage of Asset's Extra Data}
-
-\textit{In progress...}
-
-\end{multicols}
-
-\newpage
-\appendix
-
-\section{Terminology}
-\begin{description}
-\item[Blockchain]--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
-\item[ISAO]--- Initial Smart Asset Offering
-\item[Tokenization]--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
-\end{description}
 
 \printbibliography
 
