@@ -7,12 +7,6 @@
 \usepackage{enumitem}
 %--------------------------------------
 
-% Colors
-%--------------------------------------
-\usepackage{color}
-\definecolor{lightyellow}{rgb}{1,0.98,0.9}
-%--------------------------------------
-
 % Language
 %--------------------------------------
 \usepackage[utf8]{inputenc}
@@ -62,13 +56,12 @@
 \usepackage{amsmath}
 %--------------------------------------
 
-\title{BankEx Proof-of-Asset Protocol}
-\author{Yellow Paper, version 0.1.4 alpha}
-\date{September 03, 2017}
+\title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
+%\title{BankEx Proof-of-Asset Protocol}
+\author{The Smart White Paper, version 0.1.5 alpha}
+\date{September 05, 2017}
 
 \begin{document}
-
-\pagecolor{lightyellow}
 
 \maketitle
 
@@ -84,6 +77,19 @@ BankEx Proof-of-Asset protocol of assets tokenization and liquidity increase is 
 
 \section{Introduction}
 
+\subsection{Disclaimer}
+
+You are reading The Smart White Paper.
+
+It was developed by the BankEx team and describes a decentralized technology for control of liquidity of smart assets based on the Proof-of-Asset Protocol.
+	
+We provide the description of the technology, based on our level of knowledge and development. We hope you will find it valuable. However, there are certain commitments we are unable to make in regards to the technology of the protocol.  
+Neither BankEx, nor its suppliers and distributors provide any guarantees regarding the Proof-of-Asset Protocol software, aside from those mentioned in the provided and additional Terms of Use. We take no responsibility in regards to the contents of the protocol software, its special functional capabilities, availability and compliance with your requirements. All services are provided \enquote{as is}.
+
+Local law of certain countries ensures guarantees such as vendibility, serviceability in certain fields, investor protection and intellectual property rights protection. Aside from situations outlined in the legal system, we exclude any and all implied warranties.
+
+After reading The Smart White Paper you may decide to take part in the development of new decentralized technologies, using your knowledge, time and financial resources. Therefore by reading this text, you assume the unconditional obligation that, in the event of being a citizen of USA, China, Singapore, Russia or any other country, any lawsuit with any claimant, where your name is featured as an involved party, we receive a guaranteed right to charge you as a private party for the full amount of losses, including any fines or legal costs, including in the event of your using software (VPN, Class Action, etc) to conceal your true country of residence. 
+
 \subsection{BankEx Proof-of-Asset Protocol}
 
 BankEx is an organization that unites members of the financial markets in order to build a community and implement the Proof-of-Asset Protocol enables community members to profit from mutual use of assets. 
@@ -91,9 +97,9 @@ BankEx is an organization that unites members of the financial markets in order 
 The product of BankEx is the Proof-of-Asset Protocol, which solves the issue of non-fungible asset liquidity. Proof-of-Asset means the token released as part of the protocol is ensured with an asset. 
 The know-how of BankEx is the Proof-of-Asset protocol, in essence a combination of BaaS (Bank-as-a-Service) and blockchain technologies. We take a client asset, primarily on the financial market, we tokenize it, then, without waiting for the portfolio to accumulate critical mass, we turn this asset into money for the bank.  This is made possible through formation of a single pool of similar assets (e.g., pool of banks) thereby creating a marketplace, where banks benefit from liquidity and investors benefit from a predictable and transparent cash flow.
 
-\subsection{Specification of Examples in Yellow Paper}
+\subsection{Specification of Examples in White Paper}
 
-All examples and demonstrations in this Yellow Paper are used only as demonstrative examples of the SmartDeal technology. The business of BankEx involves manufacturing fintech products and tokenizing primarily financial assets, although we do not think it impossible to apply the Proof-of-Asset Protocol in other fields, with approval from the BankEx Foundation in case of non-financial Smart Assets. In our case, first and foremost we create liquidity for financial assets.
+All examples and demonstrations in this White Paper are used only as demonstrative examples of the SmartDeal technology. The business of BankEx involves manufacturing fintech products and tokenizing primarily financial assets, although we do not think it impossible to apply the Proof-of-Asset Protocol in other fields, with approval from the BankEx Foundation in case of non-financial Smart Assets. In our case, first and foremost we create liquidity for financial assets.
 
 \subsection{Game Theory Behind the Proof-of-Asset Protocol}
 
@@ -106,34 +112,6 @@ We offer a solution~--- the Proof-of-Asset Protocol, the point of which is an in
 In turn, the increased amount of information on economical operations and their authenticity grant new opportunities for the development of an economical AI, building sufficiently precise artificial intelligence systems for risk evaluation, making the cost of such calculations approach zero. This would enable the creation of a competitive market of economical AI working for the good of modern society. 
 
 \section{Modern Financial Markets}
-
-\subsection{Classical Microservice Architecture}
-
-Microservice architecture is a network of module services that can be deployed independently from one another.
-
-Microservice architecture is an approach to structuring applications whereby they are broken down into smaller independent internal components.
-
-\paragraph{Advantages of Microservice Architecture:}
-
-\begin{itemize}
-\item autonomous ownership for different microservices within an application;
-\item agility, application micro-components can be developed and tested in autonomous decentralized teams much faster;
-\item improved scalability (scaling independent of other components, on-demand scaling);
-\item continuous delivery and deployment of micro-components.
-\end{itemize}
-
-A monolithic architecture is much easier in implementation, control and deployment, while microservices require careful management, as they are deployed on different servers and use API.
-
-Such architecture allows technically complicated applications to constantly evolve without the need to wait for the release of a new version of the product to make changes. There is no need to release an updated version of the product, if the changes apply only to a small part of the product. That’s why it’s possible to customize for various business tasks of every enterprise, department or person.
-
-Notably, microservices can be fully managed by different teams in compliance with different standards and are also more available: even if one of them crashes, it does not lead to the crash of the entire application. A unified architecture facilitates work in situations where multiple modules need to interact with one another, or where classes need to be transferred from one module to another. At the same time microservices can guarantee that there will be no shared states between the modules. Finally, microservices allow you to use multiple technologies and languages, depending on business needs (Figure~\ref{fig:microservice-vs-monolyth}).
-
-\begin{figure*}
-  \centering
-  \includegraphics[width=\textwidth]{microservice-vs-monolyth.pdf}
-  \caption{Monolythic vs. Microservice Architecture}
-  \label{fig:microservice-vs-monolyth}
-\end{figure*}
 
 \subsection{Bank-as-a-Service (\textit{BaaS}) Business Model}
 
@@ -184,6 +162,34 @@ Many professional market players admit that a decentralized BaaS business-model 
 Front service of clients remains in the hands of the banks, while products are presented by narrowly-oriented product banks or companies. 
 
 We believe that the \textit{B2B2C} combination of business-models and technologies is the key to BankEx’s success.
+
+\subsection{Classical Microservice Architecture}
+
+Microservice architecture is a network of module services that can be deployed independently from one another.
+
+Microservice architecture is an approach to structuring applications whereby they are broken down into smaller independent internal components.
+
+\paragraph{Advantages of Microservice Architecture:}
+
+\begin{itemize}
+\item autonomous ownership for different microservices within an application;
+\item agility, application micro-components can be developed and tested in autonomous decentralized teams much faster;
+\item improved scalability (scaling independent of other components, on-demand scaling);
+\item continuous delivery and deployment of micro-components.
+\end{itemize}
+
+A monolithic architecture is much easier in implementation, control and deployment, while microservices require careful management, as they are deployed on different servers and use API.
+
+Such architecture allows technically complicated applications to constantly evolve without the need to wait for the release of a new version of the product to make changes. There is no need to release an updated version of the product, if the changes apply only to a small part of the product. That’s why it’s possible to customize for various business tasks of every enterprise, department or person.
+
+Notably, microservices can be fully managed by different teams in compliance with different standards and are also more available: even if one of them crashes, it does not lead to the crash of the entire application. A unified architecture facilitates work in situations where multiple modules need to interact with one another, or where classes need to be transferred from one module to another. At the same time microservices can guarantee that there will be no shared states between the modules. Finally, microservices allow you to use multiple technologies and languages, depending on business needs (Figure~\ref{fig:microservice-vs-monolyth}).
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{microservice-vs-monolyth.pdf}
+  \caption{Monolythic vs. Microservice Architecture}
+  \label{fig:microservice-vs-monolyth}
+\end{figure*}
 
 \subsection{Blockchain Serviсe Architecture (\textit{Blockchain~SA})}
 
@@ -329,7 +335,7 @@ Everything in our world is relatively liquid. The Figure~\ref{fig:blackstone} is
 
 We see that selling public equities takes several seconds, bonds can be sold within a day, municipal bonds would take weeks or months. Private equities~--- 10 years, real estate~--- 5--10 years, objects of infrastructure such as bridges, roads or factories – tens of years. Works of art may wait for their buyer more than 50 years. 
 
-In this situation, blockchain tokens which can be bought and sold on a decentralized blockchain in less than 10-30 minutes, are an opportunity to tokenize everything that currently takes longer than that to sell. 
+In this situation, blockchain tokens which can be bought and sold on a decentralized blockchain in less than 10--30 minutes, are an opportunity to tokenize everything that currently takes longer than that to sell. 
 
 The potential tokenization market includes everything that sells over days, weeks or years. Meaning potential for the tokenization market is enormous. The issue currently being addressed by the best blockchains in the world~--- Ethereum and Bitcoin, the issue of having to wait several minutes to receive several transaction confirmations, is no issue to us. 
 
@@ -360,7 +366,7 @@ We present to you the procedure of creating a Smart Asset~--- \textit{ISAO} (\te
 
 It’s simple. Use Smart Asset.  
 
-Businesses (farms, stores, manufacturing enterprises) referred to as Smart Assets in our Yellow Paper can be tokenized as part of the ISAO procedure, subsequently forming an \textbf{Asset Community} and receiving returns via Smart Deal.
+Businesses (farms, stores, manufacturing enterprises) referred to as Smart Assets in our White Paper can be tokenized as part of the ISAO procedure, subsequently forming an \textbf{Asset Community} and receiving returns via Smart Deal.
 
 \subsection{Requirements and Options for Asset Tokenization}
 
@@ -398,7 +404,7 @@ Blockchain technologies allow the necessary details on shares to be recorded in 
 After that, from the nominal token-holder’s perspective, they can easily change upon reaching consensus among themselves, as buyers or sellers of tokens of this Smart Asset. At the same time, shareholders are essentially not changing. All presence rights of token holders are passed to the SPV. For non-public companies that don’t want changes in their board of governing shareholders, obtaining liquidity of their capital via tokenization of part of their equity into a Smart Asset is essentially the only mutually acceptable option for all sides involved. 
 For early investors this method of investment becomes a new step to decreasing investment risks, and as a result increases the possibility of investment into formerly unavailable assets.
 
-\section{Fundamental Advantage of Tokenization for an Asset}
+\subsection{Fundamental Advantage of Tokenization for an Asset}
 
 The analytical block of BankEx, gathering and analyzing financial technologies from all over the world for several years, is seeing an interesting trend that has been forming around financial tools during the last few years. 
 
@@ -558,9 +564,9 @@ In cases when it's possible to use both BKX gas and Ethereum it will be cheaper 
 
 \section{Terminology}
 \begin{description}
-\item[Blockchain]~--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
-\item[ISAO]~--- Initial Smart Asset Offering
-\item[Tokenization]~--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
+\item[Blockchain]--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
+\item[ISAO]--- Initial Smart Asset Offering
+\item[Tokenization]--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
 \end{description}
 
 \printbibliography
