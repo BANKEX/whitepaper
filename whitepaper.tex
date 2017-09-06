@@ -57,7 +57,7 @@
 %--------------------------------------
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.2.4 alpha}
+\author{The Smart White Paper, version 0.2.5 alpha}
 \date{September 06, 2017}
 
 \begin{document}
@@ -767,6 +767,90 @@ Open Source Protocol~--- Smart Asset Core (\url{https://github.com/BankEx/smart-
 \item tech support for partners;
 \item bounty program for developers (expenses)~--- guarantee of security.
 \end{itemize}
+
+\section{BankEx Proof-of-Asset Protocol}
+
+\subsection{Registration data \& product data}
+
+The our first step in researching the liquidity protocol is data. BankEx as a classical fintech company is well aware how many different existing banking systems there are, many with an architecture that was established many years ago.
+
+That’s why in order to build the protocol technology we have begun our research from scratch, rather than basing it off of any existing IT infrasctructure of a bank. This may be an unexpected decision to some IT specialists of the banking segment, but we have decided to separate all the information we work with during initialization of Smart Assets into just two parts: registration data and product data. We see no reason to overcomplicate this.
+
+Registration data~--- data that allows the identification of a client. Modern registration data contains an intrinsic fundamental controversy. On the one hand, internet platforms have evolved to the highest level of simplification for this data - most of them request nothing but a client’s e-mail upon initial registration. On the other hand, in order to work with financial information in global economy, it is necessary to receive the most extensive registration data from the client - this is a matter of public security.
+
+In the blockchain network technology there is, in essence, only one vitally important identification, which is the address of one's wallet. As we are building the financial asset tokenization protocol, we find this information insufficient. 
+Here is our solution. The registration data that allows client identification is taken beyond the tokenization cycle. When a Smart Asset is created on the Ethereum blockchain, we retain the technological capability to perform tokenization using only the Ethereum Wallet number, but at the same time we also create a connection between the Ethereum Wallet used in tokenization and the other registration data using the BankEx KYC Adapter. This is imperative as different banks may have completely different assortments of client registration data and, what’s more important, these are personal details that are protected in many countries. It would be unwise to create a Smart Asset reliant on them. 
+
+On a technological level the Proof-of-Asset Protocol allows the BankEx KYC Adapter to be integrated with any KYC provider functioning in the country. BankEx has a subsidiary with a working product of this type. This is not rocket science. All we can say is we are followers of the technology of client identification via blockchain-stored hash, received from client data initially verified by a reliable source. 
+
+The most important consequence of the decision to take registration data beyond the tokenization cycle using the BankEx KYC Adapter, is that various Originators, including banks, can now be integrated more comprehensively and with minimal effort. The Originator defines identification parameters and the Proof-of-Asset Protocol adjusts to suit those parameters, creating a link between client data and the Smart Asset blockchain wallet. 
+
+What about the data that goes into the Smart Asset? That's product data - an arrangement of data necessary to tokenize the client’s asset, with parameters and contents defined exclusively by the Product Owner separately for every Smart Asset Type. 
+
+On the schematic you can see, along with the protocol entities you have already become familiarized with, that the Product segment includes blocks that define product data for both the Originator and the Supplier.
+
+The quantity and types of product data fields are not limited in any way~--- it is decided entirely by the Smart Contract logic necessary for a particular Product Instance. 
+
+As a brief summary, the ecosystem of the protocol generally allows for various other registration data~--- the principle of work with them is always going to remain unchanged, they are technically impossible to store in a Smart Asset. In any event where any entity needs to be identified, the process of identification itself is always going to be beyond the logical cycle of the Smart Contracts included in the Smart Asset. The protocol only interacts with such data on the level of confirmed or unconfirmed registration data hashes that come from external oracles. 
+
+The only possible exception to this rule is when the Smart Asset Proof-of-Asset Protocol is fully realized on the Microsoft Azure Bank API server within the bank’s security network.
+
+\subsection{Creating a Smart Asset}
+
+As we have already discussed the Blockchain Service Architecture allows formation of various chains of smart contracts based on the protocol. Let's examine the order in which a typical Smart Asset is created.
+
+We see five desired logical steps in the Proof-of-Asset Protocol to be able to call a token a Smart Asset (Figure~\ref{fig:poa-protocol}). These steps are:
+
+\begin{itemize}
+\item initial contract;
+\item validation;
+\item audit;
+\item legal;
+\item proposal.
+\end{itemize}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{poa-protocol.png}
+  \caption{Proof-of-Asset Protocol}
+  \label{fig:poa-protocol}
+\end{figure*}
+
+We first initialize the contract, selecting a type of Smart Asset. The Smart Asset’s type determines product data required for the token and the logic by which that data is processed. 
+Next the Originator fills in General Information, which can happen both manually and automatically. Data entered by the Originator is what we presently call digitalization. The information is there, but its value is unknown as the filled in forms have no function and, more importantly, have no validity - we have no way of knowing if that information is genuine. 
+The next step is Validation. This is where Smart Contracts are executed that validate the information entered by the client using various trusted sources. These can include Internet of Things Sensors, Eternal Oracle, Crawlers and others. It is crucial that the contract is saturated with data from sources independent from the Originator, which allows for an accurate assessment of the authenticity of General Information provided. 
+
+Next the result is audited, always by an outside party. This is the part of tokenization where a 3rd party gets involved. Primarily this is BankEx, comparing hash totals of the current Smart Asset code with certification data from the BankEx Foundation. Only a verified SACC code can get the BankEx Verifed mark. These can also be accounting services or any other services that can check the process of tokenization based on Smart Asset logic.
+
+It is also important that at this point classical offchain organizations can also get involved, if that is supported by the issuing conditions of the Smart Asset. 
+
+Legal is the step where every Product Instance can set up legal conditions specifically required for both it and the country where it's located. This is also where the Smart Assets intended for global liquidity establish the norms of governmental and customs regulations. The Blockchain Service Architecture allows any existing legal regulations to be written into Smart logic. If the government of your country demands that you must receive an official document from the town hall for your asset, then you do just that. You head to the town hall, receive the official document, scan it and add it into the Smart Asset with your signature or that of a certifying officer. After the government implements tokenization to their algorithms you can simply change the one corresponding Smart Contract included in your Smart Asset. 
+
+Proposal~--- Smart Contracts that fix the base price of a Smart Asset and define the type of operation that will be performed with the taken asset on the Smart Asset Exchange. From a stock exchange perspective, the result of this step is the creation of a bid. From a blockchain perspective~--- the issuing of a token.
+
+\section{Smart Asset Сaterpillar}
+
+The BankEx team named this tokenization principle the Smart Asset Caterpillar, although it was not our first choice of name. It was picked up when we realized that in order to achieve true value of a Smart Asset, which means proving that it is ensured by an actual asset, it was imperative that smart contracts in the chain were to flow from one to another in an uninterrupted sequence. If you were to cut an earthworm in half, its parts will survive for a time. But if a caterpillar is cut in half or even if it loses any segment of its body~--- it dies. This principle is true for the Smart Contract chain in a Smart Asset. If you interrupt the chain or either of the links becomes invalid then the Smart Asset formula will result in a value of zero for the asset. Any link of the Smart Asset Сaterpillar being insufficiently validated would have a detrimental effect on the resulting value of the entire Smart Asset. 
+
+A second important consequence of the Smart Asset Caterpillar tokenization principle is that every significant step on the chain that affects the Smart Asset’s value is recorded on the blockchain. You enter your General Information during step one and press next - the Blockchain Service Architecture asks if you wish to record your commitment on the blockchain (Figure~\ref{fig:asset-creation}), after which you will receive details of the transaction on blockchain (Figure~\ref{fig:asset-detail}).
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.7\textwidth]{asset-creation.png}
+  \caption{Step~1~--- Asset Creation}
+  \label{fig:asset-creation}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.7\textwidth]{asset-detail}
+  \caption{Step~2~--- Asset Detail}
+  \label{fig:asset-detail}
+\end{figure*}
+
+This is not just digitization~--- it is tokenization, an imprint of your commitment and, the further along the Smart Asset Caterpillar you are, the more valid your commitment is to other members of the ecosystem.
+
+It's worth noting here that the BankEx Proof-of-Asset Protocol technology supports several technical solutions for the recording of the aforementioned imprints on the blockchain, including industry-specific know-how. 
 
 \end{multicols}
 
