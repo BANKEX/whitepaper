@@ -57,7 +57,7 @@
 %--------------------------------------
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.2.3 alpha}
+\author{The Smart White Paper, version 0.2.4 alpha}
 \date{September 06, 2017}
 
 \begin{document}
@@ -636,6 +636,136 @@ So, the characteristics of the Supplier in the protocol are as follows:
 \begin{itemize}
 \item role: Smart Asset consumer;
 \item function: taking part in the Smart Asset and creation of Smart Deal using his resource.
+\end{itemize}
+
+\section{Initial Smart Asset Offering (\textit{ISAO})}
+
+\subsection{BankEx Foundation}
+
+BankEx Foundation is a non-commercial self-regulated organization with a community the members of which are engaged in work and development of smart contracts for new Smart Assets and Product Instances created with its participation. It includes blockchain technology experts, programmers as well as product providers and product experts.
+
+The BankEx Foundation as a non-profit organization is an important element of the BankEx Protocol ecosystem, which allows coordination of the actions of various other elements of the system.
+
+We must note here that while other sections of The Smart White Paper BankEx describe processes and technologies in various states of readiness but existing in the real world, this section is going to present the model of a concept not yet existing in the world, but aimed at solving issues.
+
+When creating prototypes of various Smart Assets at the BankEx Lab we have encountered a situation where many business owners from various countries started coming to us, wishing to tokenize their assets via the ICO procedure. Our vision of tokenization, which we have already discussed in this White Paper earlier, concludes that issuing your own coin is a poor solution for assets belonging to the real sector of economy where rocket science technologies don’t exist. Nonetheless, the necessity and even inevitability of the tokenization of their assets in the future are obvious. We suggested the procedure of Smart Asset emission to these clients, some of the resulting Originators were accepted by the BankEx Lab as pilot designs. These assets will be prepared for the \textit{Initial Smart Asset Offering} (\textit{ISAO}) in the Proof-of-Asset Protocol ecosystem. But we turned down the majority of them.
+
+How do we see the possibility of providing these businesses with the option to tokenize, regardless of the centralized initiator-company of the Smart Asset?
+
+The BankEx team assumes the Market will form more and more such requests as time passes. These requests will come from owners of businesses or assets, meaning Originators with No token Asset. The BankEx Lab is receiving such requests now, but subsequently they will be addressed to multiple Product Owners in the ecosystem. Those requests that the Product Owners can tokenize they will process, creating Product Instances. Of course, they will also turn down many incoming requests. The reason is not so important at this point.
+
+Such requests for tokenization of a new type of assets are directed by acting Product Owners to the BankEx Foundation (Figure~\ref{fig:isao}). 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{isao}
+  \caption{ISAO Structure}
+  \label{fig:isao}
+\end{figure*}
+
+Now let’s examine the schematic to see how the BankEx Foundation coordinates actions:
+
+\begin{description}
+
+\item[Asset Community]--- as the request for creation of a Smart Asset came from the Market, there is clearly an individual or group of individuals who are pioneers and enthusiasts of this product. These are the people the BankEx Foundation forms a product community from for the creation of a new type of Smart Asset. This product community then takes over the business development of the aforementioned Smart Asset. The initiator of the request for such a Smart Asset Type may become the founder of said Asset Community. Such communities are also needed by the ecosystem for two more important functions - product expertise and providing Proof-of-Asset evidence in the event of Smart Deal disputes. It’s important that in the Asset Community we do not require identification of all the members~--- they take part in the ecosystem only with their knowledge and experience. 
+\item[Foundation Community]--- this is a community of programmers and business developers, who are fans of the decentralized Blockchain Service Architecture. They are the people responsible for creating the world-changing chains of Smart Contracts for various No token Assets.
+\item[New Smart Asset Type]--- is a program code fully ready for initiation. As we see on the schematic the Asset Community, Foundation Community and the BankEx Lab with participation from third party experts takes part in the creation of this code. The quality of the code is guaranteed by the BankEx Smart Asset Certification Center.
+\end{description}
+
+So the BankEx Foundation in the protocol has the following characteristics:
+
+\begin{itemize}
+\item role: community built around the protocol;
+\item function: creation of new types of Smart Assets and the development of the protocol that will be in-demand by the community, as well as the growth of the community that is going to use the protocol.
+\end{itemize}
+
+\subsection{BankEx Crypto-FIAT Depository}
+
+One of the existing and not yet solved issues in asset tokenization is the impossibility for legally significant organizations to purchase tokens. There is a long series of details relevant for different locations.
+
+Let us pause on the most important and define their common features.
+
+First, banks and organizations are able to invest into companies, using stocks and equities. In banks, classical funds and large financial groups there are special departments that invest into corporate securities and other financial instruments on stock exchanges. These departments are able to invest into securities, but lack the ability to invest into cryptographic coins and tokens, as they have no common tools for that.
+
+Second, banks and organizations must place purchased assets on their balance upon investment, for that they require legally relevant documents that confirm purchase of the asset. Token purchase provides no such documents. 
+
+Third, banks and organizations lack the technology to follow their existing security regulations when storing cryptoassets. As we all know, should the private key be compromised, that would be enough to lose access to the crypto wallet, and it doesn’t matter what amount is stored on the wallet, if a malignant party obtains the private key it can vanish in an instance. Banks are unable, or rather they cannot permit assets to be stored with such security parameters. 
+
+In the BankEx ecosystem solution of these problems is handled by the \textbf{BankEx Crypto-FIAT Depository}. This is a legal organization and a technology for cryptoasset storage. The Crypto-FIAT Depository works as any classical depository with the only difference being that it grants its classical clients the ability to store cryptoassets.
+
+We see this as the Depository forming a legal agreement with a bank or organization to give the Depository permission to store clients’ cryptoassets. After that the client registers a wallet in the Depository for the cryptoassets he requires. If it’s an ERC20 token then an Ethereum Wallet is registered. After that the client does not receive the private key to the wallet - instead it’s instantly conserved in the depository’s storage until the client closes the account. The client receives a regular depository receipt in return for his cryptoasset.
+
+The technology to store coins and tokens in the Crypto-FIAT Depository allows a client to conduct operations with cryptoassets on his balance, and what’s more important, it lets him do this in a way that he’s used to. He sees these cryptocurrencies in the same way he would see classical assets. This is the very technology that FIAT and Crypto markets are waiting for.
+
+\subsection{BankEx Co-investment Fund \enquote{Co-Fund}}
+
+The word \enquote{investment} in the title of this section does not imply that BankEx plans to make investment its business. The BankEx Co-investment Fund is first and foremost an instrument to provide support the BankEx Foundation and the Asset Community in creation of new types of Smart Assets.
+
+To understand the mission of \enquote{Co-Fund} in the BankEx ecosystem we must once again address the present reality of the investment market. Initialization of a new Smart Asset Token is based on cryptography algorithms and smart contract formulas and cryptography algorithms cannot include FIAT currencies. The solution to this issue was detailed in the previous section.
+
+\enquote{Co-Fund} is a solution to the next issue, namely the creation of a bridge, an instrument between banks, classical funds and the procedure of initial token emission, Initial Smart Asset Offering (ISAO).
+
+The \enquote{Co-Fund} capital structure consists 10\% of BankEx Lab capital with the remaining 90\% saturated by partner banks. These banks are also part of the fund as Limited Partners (Figure~\ref{fig:co-fund}).
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{co-fund}
+  \caption{ISAO Structure}
+  \label{fig:co-fund}
+\end{figure*}
+
+Such a scheme of new Smart Asset funding, or, in other words, funding of new fintech products, is the result of an almost two year long journey of BankEx in the field of financial technologies. It is worth repeating that BankEx is an independent fintech lab with no participation in the capital of any large banks or funds. We therefore know full well how difficult it may be for banks to invest into new fintech products, and how much more difficult it is for young fintech companies to receive financing from banks. 
+
+The above scheme fully solves this issue with the bank making an investment into a fund it can comprehend, using a legally acceptable depository, while the young companies creating Smart Assets interact through the friendly BankEx Foundation, making no direct contact with the bureaucratic systems of banks. 
+
+\subsection{Initial Smart Asset Offering (ISAO)}
+
+Initial Smart Asset Offering (ISAO)~--- is the initial Smart Asset offer with the goal of tokenizing financial assets or real economy sector assets in the form of emission and sale of Smart Asset Tokens to buyers.
+
+An ISAO can only be carried out with an asset present, in other words either a functioning or planned cash flow. A technological startup or RnD cannot be tokenized via the ISAO procedure.
+
+On the schematic (Figure~\ref{fig:isao}) we can see the request for an ISAO comes from an Originator, i.e. owner of a financial or manufacturing asset. This Originator does not need to create the tokenization technology~-- instead the best programmers from various teams coordinated by the BankEx Foundation compete for its creation.
+
+It would be fair to state that a first-time Originator with the desire to create a new type of Smart Asset and an Originator initiating an Initial Smart Asset Offering can be one and the same person, which is what we are striving for. But at the same time this schematic does not permit centralization of the program solution, as the Originator neither influences the actual writing of the Smart Asset code, nor controls the programmers, the Originator is only able to take part in the development via product expertise using the Asset Community mechanism. 
+
+In the BankEx Proof-of-Asset Protocol ecosystem the following can take part in the initial purchase of Smart Asset Tokens on a technological level:
+
+\begin{itemize}
+\item buyers originating from the market;
+\item banks and classical funds via the BankEx CF Depository and “Co-Fund” systems;
+\item members of the product community interested in development of assets of this particular type.
+\end{itemize}
+
+If the buyer originates from the market or the Asset Community and he needs to make a purchase using FIAT currencies, he has the ability to do that via the Crypto-FIAT Depository. If the buyer wants to make a purchase using ETH~--- he can do so directly.
+	
+The buyer of Smart Asset Tokens~--- in terms of entities present in the Proof-of-Asset Protocol, as outlined in the previous chapter~--- takes the role of the Supplier.
+
+\subsection{Open Source: Smart Asset Core}
+
+BankEx Foundation presents a platform for collaborative work with an open source code, created to promote technologies in the banking and financial sectors.
+
+An Open Source approach to development based on collaborative use of software can ensure transparency, stability and support needed to implement blockchain technologies. The main task of organizations is the development of a global cooperation and support of leaders and entrepreneurs in the field of finances, banking, Internet of Things and decentralized technologies. 
+
+We welcome all who take part in the developer community of the Smart Asset Protocol regardless of membership status. Additional information on the technical details and methods of collaboration can be found on the community page \url{https://github.com/BankEx}.
+
+Open Source Protocol~--- Smart Asset Core (\url{https://github.com/BankEx/smart-asset-core}) is the base structure to tokenize and securitize assets. It contains all the necessary modules for integration of third party information providers and tools for writing specialized smart contracts.
+	
+\subsubsection*{Open Source Proposal:}
+
+\begin{itemize}
+\item development of the blockchain community in order to support the Proof-of-Asset Protocol;
+\item establishing partner connections and their subsequent technical support;
+\item formulation of the direction of technological development and establishing interaction with Product Providers;
+\item creation of the protocol’s core architecture with subsequent increase of functionality by involving specialists from the open source community;
+\item ensuring protocol security, including by means of involving third party white hat hackers \& developers;
+\item organization of a tight cooperation with solutions of other open source communities, such as the Consensus Foundation, Ethereum Foundation, Symphony Foundation, Hyperledger
+\end{itemize}
+	
+\subsubsection*{Open Source Finance part:}
+
+\begin{itemize}
+\item tech support for partners;
+\item bounty program for developers (expenses)~--- guarantee of security.
 \end{itemize}
 
 \end{multicols}
