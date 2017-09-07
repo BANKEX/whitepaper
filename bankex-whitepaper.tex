@@ -57,7 +57,7 @@
 %--------------------------------------
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.2.6 alpha}
+\author{The Smart White Paper, version 0.2.7 alpha}
 \date{September 07, 2017}
 
 \begin{document}
@@ -967,12 +967,118 @@ The result of this step is the issuing of a token and formation of a bid for the
 
 \subsection{IT Architecture Scheme}
 
+IT architecture scheme is presented on Figure~\ref{fig:it-architecture}.
+
 \begin{figure*}
   \centering
   \includegraphics[width=\textwidth]{it-architecture.pdf}
   \caption{IT Architecture Scheme}
   \label{fig:it-architecture}
 \end{figure*}
+
+\subsection{Asset data compression for blockchain record}
+
+\text{ }
+
+\subsection{Role and system access matrix}
+
+\text{ }
+
+\subsection{Originator/Supplier interaction in the ecosystem architecture}
+
+\text{ }
+
+\subsection{Bank \& non-Bank Originator/Supplier}
+
+\text{ }
+
+\subsection{Use of Microsoft Azure Bank API}
+
+\text{ }
+
+\subsection{Large data volume hashing in the Microsoft Azure Storage}
+
+\text{ }
+
+\subsection{Soft and Hard Commitment assignment rules}
+
+\text{ }
+
+\subsection{Bid \& Ask records independence principle}
+
+\text{ }
+
+\subsection{Decentralized Order Book rules}
+
+\text{ }
+
+\subsection{Decentralized matching~--- pros and cons}
+
+\text{ }
+
+\subsection{Offchain Settelment Control}
+
+\text{ }
+
+\subsection{Settelment directions}
+
+\text{ }
+
+\subsection{Formula 1: saturation of request with data in a blockchain environment}
+
+\text{ }
+
+\subsection{Reasons for differentiation between order and bid for Smart Assets}
+
+\text{ }
+
+\subsection{Formula 2: solution for automated order merging and separation}
+
+\text{ }
+
+\subsection{Formula 3: filter cascade system in the Order Book}
+
+\text{ }
+
+\subsection{Formula 4: implementation of classical stock market trade rules in a blockchain environment}
+
+\text{ }
+
+\subsection{Study of speed parameters of matching for Smart Assets}
+
+\text{ }
+
+\subsection{Technological differences during Supplier tokenization}
+
+\text{ }
+
+\subsection{Transaction execution with decentralized storage}
+
+\text{ }
+
+\subsection{Work with order packages during contract initiation}
+
+\text{ }
+
+\subsection{Order of Escrow function in the transaction execution block}
+
+
+\text{ }
+
+\subsection{Smart Asset Core v.3}
+
+Version 3 of Smart Asset Core is presented on Figure~\ref{fig:sa-core-v3}.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{sa-core-v3.png}
+  \caption{Smart-Asset Core, Version~3}
+  \label{fig:sa-core-v3}
+\end{figure*}
+
+\subsection{Smart Asset Core v.4}
+
+\text{ }
 
 \subsection{\enquote{Plasma} protocol \& Proof-of-Asset Protocol}
 
@@ -1043,104 +1149,6 @@ There are four major layers of back-end applications involved:
 \item[Product instance]--- an iteration of a fintech-product owned by a BankEx product provider. For instance a product provider can customize his product for various regions, thus creating a product instance for each country. 
 \item[Blockchain-agnostic protocol]--- an application level protocol that does not depend on the exact blockchain-technology utilized and can be implemented on any existing open source blockchain. 
 \end{description}
-
-\section{BKX Tokens Economy}
-
-\textbf{Value}. The smallest subdenomination of BKX is called Cent. All integer values are counted in Cent in the BankEx ecosystem. BKX denomination is defined in Table~\ref{tab:tokens}.
-
-\begin{table*}[h]
-    \caption{BKX Token Denomination}
-    \label{tab:tokens}\centering
-    \begin{tabularx}{0.5\textwidth}{|X|X|}
-        \hline
-            \thead{Multiplier} & \thead{Name} \\
-        \hline
-            \makecell{$10^0$} & \makecell{BKX Cent} \\
-            \makecell{$10^2$} & \makecell{BKX} \\
-        \hline
-    \end{tabularx}
-\end{table*}
-
-\textbf{Transaction} is a single cryptographically signed transaction based on the Ethereum blockchain. We have two types of transactions: \textit{smart-asset creation} and \textit{asset transfer} (from one wallet to another one, from a wallet to the BankEx Exchange and vice-versa). Each smart-asset will come with an internal reserve of BKX that will be used by all the functions used by the smart asset in the BankEx ecosystem. Functions associated with a transaction:
-
-\begin{description}
-\item[nonce]--- scalar value representing number of transactions sent by the sender, $T_{number}$
-\item[BankEx gas price]--- scalar value representing the number of BKX~Cent used to pay for the all computational costs included by the transaction accomplishment, $T_{BKX_{gas}}$
-\item[BankEx gas limit]--- maximal value of gas that be used to execute a transaction, $T_{BKX_{gasLimit}}$
-\item[to]--- address of the recipient. It will be represented in 160-bit similar to the Ethereum one, $T_{to}$
-\item[value]--- scalar value that represents a quantity of a given type of smart-asset, $T_{value}$
-\item[init]--- an unlimited size byte array representing the EVM-code for account initialization procedure, same as in Ethereum, used when smart asset is created, $T_{init}$
-\item[data]--- unlimited size byte array representing input data of a message call transaction, similar to Ethereum, $T_{data}$
-\end{description}
-
-This way any operations with a given smart asset can be represented by:
-
-\begin{equation}
-    \Omega(T) \equiv
-    \begin{cases} 
-        (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{init}) & \text{if } T_{to} = \emptyset, \\
-        \\
-        (T_{number}, T_{BKX_{gas}}, \\T_{BKX_{gasLimit}}, T_{to}, \\T_{value}, T_{data}) & \text{otherwise}
-    \end{cases}
-\end{equation}
-
-Block and World State \cite{wood2014ethereum} structures will be similar to Ethereum ones, since BankEx ecosystem will be based on the Ethereum blockchain.
-
-\textbf{Smart asset creation}. This operation involves a few parameters: sender ($s$), original transactor ($ot$), available BKX gas ($g_{BKX}$), BKX gas price ($p_{BKX}$), BankEx escrow ($b_{escrow}$) and endowment ($\nu$) with the arbitrary length byte array ($i$), $EVM$ code and the depth of the message call/smart assert creation stack ($e$) (the parameters $s$, $ot$, $\nu$, $i$, $EVM$ and $e$)are identical to ones encoded in the Ethereum token.
-
-The first step of the smart asset creation will always involve the creation of a token on the Ethereum blockchain. We use the name $\sigma$ as in our Ethereum token that precedes the smart asset.
-
-We formally describe the creation of smart asset by:
-
-\begin{equation}
-    \left(\sigma', g', A\right) \equiv \Lambda_2\left(\sigma, s, ot, g_{BKX}, p_{BKX}, b_{escrow}, \nu, i, e\right)
-\end{equation}
-
-\section{Transaction Types in BankEx Ecosystem and Value Calculation Formulas}
-
-In cases when it's possible to use both BKX gas and Ethereum it will be cheaper to use BKX creating additional stimules to use them.
-
-\begin{equation}
-	\begin{split}
-    	f_{totalGas} & = \delta_{SA_{Creation}} \times f_{SA_{Creation}} \\
-    	& + \delta_{Transfer_{Internal}} \times f_{Transfer_{Internal}} \\
-    	& + \delta_{Withdrawal} \times f_{Withdrawal} \\
-    	& + \delta_{Oracle} \times f_{Oracle} \\
-    	& + \delta_{Market} \times f_{Market}
-    \end{split}
-\end{equation}
-
-\begin{equation*}
-	\text{where } \delta_i = 
-	\begin{cases}
-		1 & \text{if \textit{service is requested}} \\
-		0 & \text{otherwise}
-	\end{cases}
-\end{equation*}
-
-\textbf{Execution of smart-asset transaction}. Every operation involving smart assets will be using BankEx gas. We have developed system of fees, described in Table~\ref{tab:op-fees}.
-
-\begin{table*}[h]
-    \caption{System operation fees}
-    \label{tab:op-fees}\centering
-    \begin{tabularx}{0.85\textwidth}{|c|c|X|}
-		\hline
-			\thead{Purpose} & \thead{BKX \\ Amount \\ used} & \thead{Details} \\
-	    \hline
-    		\makecell[l]{Creation of a Smart Asset} & \makecell{100 =<} & \makecell[l]{Amount depends on the complexity of the \\ Smart Asset and Ethereum Network load} \\
-		\hline
-            \makecell[l]{Transfer of the Smart Asset \\in BankEx ecosystem} & \makecell{2 =<} & \makecell[l]{Amount depends on the complexity of the \\ Smart Asset and Ethereum Network load} \\
-		\hline
-            \makecell[l]{Destruction of the Smart Asset} & \makecell{5 =<} & \makecell[l]{Amount depends on \\ the Ethereum Network load} \\
-		\hline
-            \makecell[l]{Adding a step in the originator \\ verification chain} & \makecell{150 =<} & \makecell[l]{Depends on the service which will \\ be requested (scoring, KYC\ldots)} \\
-		\hline
-            \makecell[l]{Requesting the \enquote{Verified Status} \\ for the Smart Asset} & \makecell{400 =<} & \makecell[l]{Depends on the type \\and complexity of the asset} \\
-		\hline
-            \makecell[l]{Requesting Escrow Services} & \makecell{50 =<} & \makecell[l]{Depends on the type} \\
-	    \hline
-    \end{tabularx}
-\end{table*}
 
 \printbibliography
 
