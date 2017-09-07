@@ -57,8 +57,8 @@
 %--------------------------------------
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.2.5 alpha}
-\date{September 06, 2017}
+\author{The Smart White Paper, version 0.2.6 alpha}
+\date{September 07, 2017}
 
 \begin{document}
 
@@ -828,7 +828,7 @@ Legal is the step where every Product Instance can set up legal conditions speci
 
 Proposal~--- Smart Contracts that fix the base price of a Smart Asset and define the type of operation that will be performed with the taken asset on the Smart Asset Exchange. From a stock exchange perspective, the result of this step is the creation of a bid. From a blockchain perspective~--- the issuing of a token.
 
-\section{Smart Asset Сaterpillar}
+\subsection{Smart Asset Сaterpillar}
 
 The BankEx team named this tokenization principle the Smart Asset Caterpillar, although it was not our first choice of name. It was picked up when we realized that in order to achieve true value of a Smart Asset, which means proving that it is ensured by an actual asset, it was imperative that smart contracts in the chain were to flow from one to another in an uninterrupted sequence. If you were to cut an earthworm in half, its parts will survive for a time. But if a caterpillar is cut in half or even if it loses any segment of its body~--- it dies. This principle is true for the Smart Contract chain in a Smart Asset. If you interrupt the chain or either of the links becomes invalid then the Smart Asset formula will result in a value of zero for the asset. Any link of the Smart Asset Сaterpillar being insufficiently validated would have a detrimental effect on the resulting value of the entire Smart Asset. 
 
@@ -837,20 +837,182 @@ A second important consequence of the Smart Asset Caterpillar tokenization princ
 \begin{figure*}
   \centering
   \includegraphics[width=0.7\textwidth]{asset-creation.png}
-  \caption{Step~1~--- Asset Creation}
+  \caption{Step~1~--- Asset Initialization}
   \label{fig:asset-creation}
 \end{figure*}
 
 \begin{figure*}
   \centering
   \includegraphics[width=0.7\textwidth]{asset-detail}
-  \caption{Step~2~--- Asset Detail}
+  \caption{Step~2~--- Asset Validation}
   \label{fig:asset-detail}
 \end{figure*}
 
 This is not just digitization~--- it is tokenization, an imprint of your commitment and, the further along the Smart Asset Caterpillar you are, the more valid your commitment is to other members of the ecosystem.
 
 It's worth noting here that the BankEx Proof-of-Asset Protocol technology supports several technical solutions for the recording of the aforementioned imprints on the blockchain, including industry-specific know-how. 
+
+\subsection{Initial contract}
+
+The exact way in which every contract is initialized is defined by the Product Owner when calculating the Product Instance (Figure~\ref{fig:initial-contract}). Let us note several significant steps for the majority of Smart Assets.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.4\textwidth]{initial-contract.png}
+  \caption{Initial Contract}
+  \label{fig:initial-contract}
+\end{figure*}
+
+First, initialization will require the registration data of the Originator End Client, and as we operate in the technological stack of the blockchain network, we have agreed not to store registration data~--- we must receive a Wallet address. For the demo version of our product we used a web interface with the Metamask Ethereum Wallet plugin (Figure~\ref{fig:originator-client-kyc}):
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.7\textwidth]{originator-client-kyc.png}
+  \caption{Example of Asset Initialization}
+  \label{fig:originator-client-kyc}
+\end{figure*}
+
+With this iteration the Ethereum wallet address is automatically taken from the plugin. In other iterations or on other blockchains this may work differently.
+
+Why do we need a wallet address? By using it we receive the ability to perform client identification through the BankEx KYC Adapter or any other KYC provider. Additionally, the demo shows it's possible to request an optional field as well, such as an e-mail. 
+
+Second, when initializing the contract data is entered into General Information fields. General information is entered either manually by the client or automatically, but its accuracy is decided only by the person inputting it. It would be fair to state that tokenization does not rely on accuracy of the General Information entered. We take it as it is, whereas the authenticity required for the Smart Asset is going to be determined by the logic of subsequent contracts in the chain. It's interesting that not all true information may actually be required by the Smart Asset, and an Originator End client who doesn't know how to determine a code's Solidity may not even know how important the fields he is filling in are. When the BankEx team hears talk about the need for each and every person in the future to have programming skills, we immediately recall our Smart Asset Caterpillar.
+
+Third, in the General Information block of the demo we show that information fields may be of any type, depending on the habits of a programmer. A type-bar, a file, a catalogue, digits~--- any type of field at all. 
+
+Fourth, part of the General Information block's function may be carried outside the blockchain logic and outside the logic of external oracles, instead being based on the UI alone. Our RnD showed that the simplest but sometimes necessary function of the logic, such as checking hash totals in specific fields can easily be diverted to web-based or any other programming logic used in a particular Product Instance. 
+
+The results of the Initial contract steps are:
+
+\begin{itemize}
+\item creation of a Smart Asset entity;
+\item assigning the Smart Asset with a unique ID for subsequent connection IoT and Oracle;
+\item may involve the creation of a legal Soft Commitment;
+\item a data record on the blockchain.
+\end{itemize}
+
+\subsection{Validation}
+
+The Validation step (Figure~\ref{fig:validation}) of a Smart Asset is the most fascinating for Research and Development, this is where various means and methods for the validation of the General Information can be built.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.4\textwidth]{validation.png}
+  \caption{Validation Step}
+  \label{fig:validation}
+\end{figure*}
+
+Let us define the following terms.
+
+\textbf{Internet of Things} (\textit{IoT}) will be the main condition for the validation of Smart Contracts, and this will come much sooner than we can imagine. Very soon our world will become filled with myriads of various sensors and transmitters for smart contracts, just as it has already become filled with smartphones and surveillance cameras. 
+
+IoT Sensors can come in any number of different combinations. BankEx is not an IoT company, and yet our lab already has more than 50 different sensors with different purposes. In the demo application we used three of them - an accelerometer, a location pin and a photo camera that any smartphone is equipped with. Let us remind you here that cell phones are already used as tools for payment. 
+
+Many companies today are trying to create Smart sensors, outfitted with an internal logic, but the decisive potential is definitely held in a combination of IoT Sensors and the logic of Smart Assets. 
+
+The second element are \textbf{External Oracles}, which are the obvious choice for data validation today, and which are used by many companies worldwide. You can check a person’s information using his Pass ID or request information on an organization using its Registration Number. You can request information on rates and constants being developed by public organizations or institutes. Or you can simply perform crawling of information from a chosen website. Everything you need for your Product Instance. Using External Oracles it's possible to implement almost any logic you could need on the Ethereum blockchain even today, it's not complicated.
+
+Use of the oracle technology to examine images or videos captured by IoT sensors deserves additional mention. Soon enough you will not have to pay for the recognition of your car license plate. The Smart Contract would be able to send a fine from your bank account on its own. 
+
+Smart Asset creation logic may include any number of External Oracles and each calculation will have its price, but even today there are technical solutions which allow them to be cheapened on the Ethereum blockchain. It would be safe to assume that in the future there will likely be even more such solutions available.
+
+Internal checks are simplest logical flags or hash totals that nonetheless may greatly impact the price of a Smart Asset, for instance a flag showing whether or not there is a supporting document uploaded along with the request to the Microsoft Azure cloud. 
+
+The results of the Validation step are:
+
+\begin{itemize}
+\item additional information input into the Smart Asset entity;
+\item formula determining the importance of concluded validation;
+\item operation saved on blockchain.
+\end{itemize}
+
+\subsection{Audit \& Legal}
+
+In terms of technical implementation, interaction with third party audit organizations, jurisprudence or government is also dedicated to an External Oracle.
+
+We initially called this section Global Delivery Conditions because in order to make an asset as liquid as possible, it must achieve global liquidity. It is similar to Amazon.com in the field of digitized goods. Global liquidity of various assets is our future, now the most important task is the embedding of the Smart Asset ecosystem into existing national legislation and state regulations. 
+
+We are often told that the implementation of Smart Assets is extremely complicated due to the impossibility of giving them legal significance. It’s true that it’s a complicated task, but offchain legal conditions are not at all difficult to write into the chain of Smart Asset contracts, even if one of the Smart Contracts requires action to be taken offchain or even offline. Does something need to be done and then marked with a tick? Good - we include this condition into the logic of the Smart Asset’s function and mark it with the tick, then the Smart Asset becomes valid and, consequently, gains value. 
+
+Obviously, the implementation of Smart Contracts is only a matter of time for any efficient nation, since the volume of inefficiencies in any large organization, including nations, is enormous. It is both beneficial and sensible. Once a nation’s work conditions are modernized, you need only update your contract chain to the latest Product Instance. In fact, if you are the Originator, you won’t even have to do that~--- it will be done by the BankEx Foundation. 
+
+Cost of delivery estimation and automatic customs tax of the exported asset based on data from the location sensor could also occur during this block. Which, we may add, opens the way for export/import of cash flow associated with various types of assets between nations. 
+
+\subsection{Proposal}
+
+Logically and technically this is the most difficult step of the Smart Asset Сaterpillar. 
+It’s where the magic happens:
+
+\begin{itemize}
+\item trading rules are set for the chosen type of Smart Asset;
+\item asset authenticity rate is calculated;
+\item the asset's base price is calculated;
+\item the asset's intended use is specified;
+\item Hard Commitment parameters are set;
+\item cash flow distribution is defined according to Smart Deal.
+\end{itemize}
+
+Actually everything is much simpler, with complicated deals that we make in the offchain world becoming significantly easier once they are given an algorithm with the Smart Asset logic. You can find this out yourself by simply breaking down any deal that interests you  to its basic elements. Now do the same thing again while also removing human error and you get a Smart Deal (Figure~\ref{fig:proposal}).
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.4\textwidth]{proposal.png}
+  \caption{SmartDeal Proposal Step}
+  \label{fig:proposal}
+\end{figure*}
+
+The result of this step is the issuing of a token and formation of a bid for the Smart Asset Exchange.
+
+\section{Technical solutions}
+
+\subsection{IT Architecture Scheme}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{it-architecture.pdf}
+  \caption{IT Architecture Scheme}
+  \label{fig:it-architecture}
+\end{figure*}
+
+\subsection{\enquote{Plasma} protocol \& Proof-of-Asset Protocol}
+
+A \enquote{Plasma} protocol was proposed recently, that is universal extension of any Turing-complete blockchain (such as Ethereum)  and allows creation of \enquote{daughter} blockchains that are governed by higher-level (\enquote{parent}) blockchain. These \enquote{daughter} chains can have different consensus rules, functionality (extensions to EMV, for example) and underlying base token. 
+
+Such extension naturally fits Proof-of-Asset proposal with Bankex token (BKX) being an underlying currency used to pay for manipulations with asset records. If functional requirements for some types of assets or operations would impose a need of extended functionality, such type of assets can be moved to separate chain. These \enquote{daughter} chains can be viewed as side-chains for ease of understanding properties, but strongly governed and penalized by \enquote{parent} chain for any sign of misbehavior of fraud. Such approach and further extension of \enquote{daughter} - \enquote{parent} relation to the whole tree of chains would allow participants of Bankex protocol to effectively do transactions with minimal trust and be able to be minimally exposed to potential fraudulent actions of other participants, especially ones not even related to their current transaction, in contrast to traditional single level chain, where potential attack affects all users immediately (DAO hack, for example). 
+
+\subsection{The most important features of Plasma protocol}
+
+One of the most important features of Plasma protocol is an ability to extend EMV and add required functionality, that is now only possible by use of external oracles. One of such examples would be a development of \textit{JWT} (JSON Web token) like message exchange format with mandatory cryptographic signatures, that would allow some form of replayability and authentication of requests to external resources. Such exchange format and use case can be illustrated as following:
+Over the lifetime of smart asset some data from external service (External API request)
+Traditionally it’s solved by use of external oracle (such as oraclize.it), that performs a request on your behalf, provides some proof of authenticity (\textit{TLS Notary}) and performs a callback.
+Such operation is expensive and requires few roundtrips. TLS Notary is not possible in modern versions of TLS protocol.
+
+Our proposed approach would be to build a standard requests protocol that would start with pre-signed (by smart-contract itself or other way) payload, that can be used to perform a request to external resource at some timeframe and requiring a response to be signed by private key of external resource (with public key also known upfront). Also, standard would require that ANY request with such payload would return THE SAME response, so it would allow to perform distributed computing and easy verification for including information into the blockchain.
+
+Another interesting extension would be possibility to perform \enquote{delayed calls}~--- requests to a smart asset functions that should be performed either at known date or regularly. For now such action would also require an external oracle, while such information can potentially be saved inside a blockchain, so every participant could trigger a function execution for an incentive in a form of fee (similar to the gas price).
+
+At some point an extension of EMV can be required to facilitate new requirements or have backward compatibility with older systems. Such functionality can be RSA functions (for old systems), Schnorr signatures (can be extended already as convenience method) or post-quantum cryptography. We see a need in having a degree of backward compatibility to connect existing systems to blockchain.
+
+But the most tedious questions to be solved for wider applications of blockchain, where computations are transparent, are, in our opinion, random number generation and homomorphic cryptography. First one is the cornerstone of cryptography in general and a way of obtaining a random number of appropriate quality will be a major breakthrough in a field. The latter is, for now, the only known possible way to achieve privacy and computation transparency at the same time. We think that extensive development and experimenting in this field should start as soon as possible, with choice of currently known candidates and implementing them in a \enquote{subchain} to which data can be transferred, manipulated and returned to the parent chain without disclosure of nature of underlying data.
+
+\subsection{IoT Integration Scheme}
+
+One if the required steps for the IoT-enchanced assets is the process of integration of them with IoT sensor management infrastructure. The registration procedure is described on the Figure~\ref{fig:iot-user-story}.
+There are four major layers of back-end applications involved:
+
+\begin{enumerate}
+\item web3j-compatible connector to th Ethereum network;
+\item TLS-secured web server for serving HTTPS-requests for both API and frontend;
+\item secured WebSocket server (\url{wss://});
+\item DeviceHive\footnote{\url{https://devicehive.com/}} server for IoT device management.
+\end{enumerate}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=0.75\textwidth]{iot-user-story.pdf}
+  \caption{IoT--Asset Integration: the User Story}
+  \label{fig:iot-user-story}
+\end{figure*}
 
 \end{multicols}
 
@@ -859,9 +1021,27 @@ It's worth noting here that the BankEx Proof-of-Asset Protocol technology suppor
 
 \section{Terminology}
 \begin{description}
-\item[Blockchain]--- is a continuously growing list of records, called \textit{blocks}, which are linked and secured using cryptography \cite{bitcoinComprehensive2016}, \cite{wikipediaBlockchain}.
-\item[ISAO]--- Initial Smart Asset Offering
-\item[Tokenization]--- process of converting rights into digital token to be circulated over blockchain with low transactional fees. Tokenization is a blockchain equivalent of securitization.
+\item[Blockchain]--- a cryptographically secured database containing the history of all transactions performed on the platform. It works the following way:
+\begin{enumerate}
+\item Transaction info is sent into the blockchain network
+\item This transaction together with other transactions forms a block. Every block has its number and holds encrypted information about preceding blocks. 
+\item The block is sent in to be checked by all members of the network
+\item If there are no discrepancies, every member adds the new block to the chain of previous blocks and the transaction is executed. 
+\end{enumerate}
+\item[Node]--- a blockchain network participant storing information on past transactions (blockchain), checks information on new transactions for authenticity and is able to add in new transactions (adding blocks). All the nodes are connected to one another forming a single network. 
+\item[A public blockchain] is a decentralized system where the information on transactions is stored and checked in many multiple locations. This kind of synchronization between millions of locations consumes large amounts of electric energy and is significantly more expensive than a private blockchain. The system also becomes slower. However, a public blockchain may prove preferable for industries where decentralization is necessary. 
+\item[A private blockchain] is centralized, making it similar to traditional centralized systems, however it exceeds them in terms of efficiency and security.
+\item[ICO (Initial Coin Offering)]--- a method of invitation to finance a campaign/project. Tokens/coins are issued that grant the right to receive a share/service/good now or in the future, or else they grant a percentage of future profits. After the start of sales, tokens can be resold to other investors. Trade is conducted on a blockchain. 
+\item[Cryptocurrency]--- digital money without a physical analogue. It is supported by the complexity of its development~--- mining. Today we are able to identify \enquote{classics} such as Bitcoin or Litecoin, and newer currencies such as Ether, which act as platforms for the creation of new assets - tokens.
+\item[Ethereum]--- the most popular platform for issuing of tokens and smart contracts. 
+\item[Gas]--- a unit used to measure the price of calculations done on Ethereum. More difficult calculations are rewarded with higher amounts of Gas. This works the following way: the originator of a smart contract sets a price in gas. Miners, whose PCs handle the calculations, make the choice whether or not to perform these calculations. If the price offered is too low, then neither the calculations, nor, as a result, the contract will ever be concluded. 
+\item[Smart-contract] a set of pre-programmed tasks that the program automatically carries out upon certain conditions being fulfilled, then forms a deal. That’s why it requires no trust between sides, nor a middleman: the contract has a strict logical structure and the computer executes it automatically. Smart-contracts allow for inclusion of a large number of conditions and states and for a correlation between their every possible combination and various outcomes. 
+\item[Ditigal tokens]--- croptygraphic assets issued using specialized blockchain platforms. An analogue would be a record in a register. A token has an address and may also contain a smart-contract that defines its function and also acts as a separate execution mechanism. 
+\item[Tokenization]--- the process of transforming rights into a digital token, which is then traded on a blockchain with low transactional costs. Tokenization is an analogue of securitization on a blockchain. 
+\item[Smart Asset]--- an asset that has gone through tokenization using the BankEx Proof-of-Asset Protocol. 
+\item[ISAO (Initial Smart Asset Offering)]--- a method of fixing businesses (farms, stores, manufacturing plants) using tokenization of their assets based on the BankEx PoA protocol. 
+\item[Product instance]--- an iteration of a fintech-product owned by a BankEx product provider. For instance a product provider can customize his product for various regions, thus creating a product instance for each country. 
+\item[Blockchain-agnostic protocol]--- an application level protocol that does not depend on the exact blockchain-technology utilized and can be implemented on any existing open source blockchain. 
 \end{description}
 
 \section{BKX Tokens Economy}
