@@ -57,8 +57,8 @@
 %--------------------------------------
 
 \title{\vspace{-3.85em}\includegraphics[width=0.25\textwidth]{logo.pdf} \\ \vspace{24pt} BankEx Proof-of-Asset Protocol}
-\author{The Smart White Paper, version 0.2.8 alpha}
-\date{September 07, 2017}
+\author{The Smart White Paper, version 0.2.9 alpha}
+\date{September 08, 2017}
 
 \begin{document}
 
@@ -1103,15 +1103,8 @@ But the most tedious questions to be solved for wider applications of blockchain
 
 \subsection{IoT Integration Scheme}
 
-One if the required steps for the IoT-enchanced assets is the process of integration of them with IoT sensor management infrastructure. The registration procedure is described on the Figure~\ref{fig:iot-user-story}.
+One of the necessary steps for IoT-enhanced assets is the procedure of integrating them with the IoT device control infrastructure. The procedure is shown on the Figure~\ref{fig:iot-user-story}.
 There are four major layers of back-end applications involved:
-
-\begin{enumerate}
-\item web3j-compatible connector to th Ethereum network;
-\item TLS-secured web server for serving HTTPS-requests for both API and frontend;
-\item secured WebSocket server (\url{wss://});
-\item DeviceHive\footnote{\url{https://devicehive.com/}} server for IoT device management.
-\end{enumerate}
 
 \begin{figure*}
   \centering
@@ -1119,6 +1112,28 @@ There are four major layers of back-end applications involved:
   \caption{IoT--Asset Integration: the User Story}
   \label{fig:iot-user-story}
 \end{figure*}
+
+The backend consists of four primary server applications:
+
+\begin{enumerate}
+\item web3j-compatible connector to the Ethereum network node;
+\item TLS-secured web server for serving HTTPS-requests for both API and frontend;
+\item secured WebSocket server (\url{wss://});
+\item DeviceHive\footnote{\url{https://devicehive.com/}} server for IoT device management.
+\end{enumerate}
+
+Let us describe the full process of integration in the case of a web-application (with a MetaMask extension installed) and the Android IoT App
+
+\begin{enumerate}
+\item The asset owner selects one of the types provided.
+\item Initial data on the asset is filled in by its owner. After all the information is filled in, the user initiates the procedure of publishing the asset on a blockchain by using the contract function via MetaMask. On this stage we learn the newly created asset’s unique identification, which the client receives following a successful transaction.
+\item After receiving the asset ID, the web interface moves on to the next step. The first thing that is required is a backend connection between the ongoing web-session and the ID of the newly created asset, which is done using a WebSocket connection. Until this step only the client and the blockchain are aware of the asset, and unless it is taken backend won’t be able to send events from the server, if they are linked to the current asset. A WebSocket connection solves this problem.
+\item To connect the asset to IoT devices, the web page displays a specially generated QR-code, containing a link to the asset ID \url{http://iot.bankex.com/ASSET_ID}.
+\item The used scans this code using the BankEx IoT App. If it’s not installed, the code can alternatively be scanned by any QR-code scanner application, which is going to open the link in a browser, automatically redirecting the user to App Store or Play Market to download the application. Deep-linking support allows the application to be launched with additional parameters, including the asset ID, immediately after installation, which helps prevent scanning the same QR-code twice.
+\item BankEx IoT App is now ready to connect the asset ID to the ID of the device, which the application already knows at this point. In a simpler case, the BankEx IoT App already supports the phone’s sensor identification, which requires no additional tools to demonstrate capabilities. External sensors can also be added using this application. 
+\item The device contacts API, sending two key parameters: asset ID and device ID. This information is also shared with the DeviceHive, where the new data is automatically registered, as well as WebSocket to inform of the client’s newly added device. 
+\item At this stage, the device ID is not yet added to the smart asset, although it is visible in the web client in the list of devices available to be added. To finish the integration, the user must confirm the device using the function in MetaMask. This transaction can charge additional Ether or BKX-tokens to credit the oracle’s IoT event execution expenses.
+\end{enumerate}
 
 \end{multicols}
 
